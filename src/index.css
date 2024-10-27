@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: product;
+  src: url(./assets/Font/ProductRegular.ttf);
+}
