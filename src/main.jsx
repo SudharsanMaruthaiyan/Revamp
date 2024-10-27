@@ -22,7 +22,6 @@ const appRouter = createBrowserRouter([
     path:"/course",
     element:<Applayout/>
   }
-  
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}></RouterProvider>)
