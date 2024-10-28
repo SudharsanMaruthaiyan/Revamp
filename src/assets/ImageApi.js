@@ -63,3 +63,6 @@ export const heroimg="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/Oppor
 export const badge = "https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/Opportunity/badge.svg?updatedAt=1728218731652"
 
 export const hero_img="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/Opportunity/home-page-1.webp?updatedAt=1728756609062"
+
+export const vectorl= "https://ik.imagekit.io/jjyo3gsee/RevampImg/Vector.png?updatedAt=1730090095369"
+export const vectorr= "https://ik.imagekit.io/jjyo3gsee/RevampImg/Vectorr.png?updatedAt=1730090095303"
