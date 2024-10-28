@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import { Button, Paragraph, SideSheet } from "evergreen-ui";
-import { logo } from "../../assets/ImageApi";
+import { logo } from "../../assets/Api/ImageApi";
 import { Link } from "react-router-dom";
 
 
@@ -11,14 +11,14 @@ const Navbar = () => {
   return (
     <>
       <div className=" max-w-[100%] mx-auto">
-        <div className=" z-10 w-[85%] mx-auto lg:px-12 grid grid-cols-2 lg:grid-cols-2 py-4 lg:py-1 border items-center bg-white fixed px-4 md:right-10 md:left-10 right-4 left-4 top-5" id="nav-shadow">
+        <div className=" z-10 w-[85%] mx-auto lg:px-12 grid grid-cols-2 lg:grid-cols-2 py-4 lg:py-1 border items-center bg-white fixed px-4 md:right-10 md:left-10 right-4 left-4 top-5 rounded-md" id="nav-shadow">
           <div>
             <img src={logo} alt="Logo" className=" w-[120px]"/>
           </div>
           <div className=" py-5 hidden lg:flex lg:justify-end lg:bg-transparent bg-white">
             <ul className=" lg:static  hidden  flex-col lg:flex-row items-center  lg:flex xl:gap-10 gap-7 font-[Stylish] text-[20px] text-center">
               <li>
-                <a href="" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-bold text-lg">Home</a>
+                <Link to={"/"}><a href="" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-bold text-lg">Home</a></Link>
               </li>
               <li>
                 <a href="#about" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-bold text-lg">Hackathon</a>

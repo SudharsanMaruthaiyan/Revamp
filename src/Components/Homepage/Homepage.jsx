@@ -1,6 +1,6 @@
 
 import { Folders,UserRound,History, Heart, Star, ArrowRight,Share,ArrowUpRight } from "lucide-react"
-import { suganth, FcourseImg1, FProfileimag, vectorl, vectorr } from "../../assets/ImageApi";
+import { suganth, FcourseImg1, FProfileimag, vectorl, vectorr } from "../../assets/Api/ImageApi";
 const Homepage = () => {
   return (
     <>
@@ -13,7 +13,6 @@ const Homepage = () => {
                             <p className=" font-[poppins] text-base text-[#FF9F00]">EDUCATE THEM WHILE THEY ARE STUDENT</p>
                             <img src={vectorr} alt="Vector_icon" />
                         </div>
-
                         <div className=" py-2">
                             <p className=" text-[26px] font-[poppins] lg:text-[57px] font-bold md:text-[54px] text-wrap md:text-nowrap">MOULDING YOUNG MINDS <br /> <span className="lg:text-[54px] md:text-[52px] text-[24px] font-medium ">to Enhance their Skills</span> </p>
                             

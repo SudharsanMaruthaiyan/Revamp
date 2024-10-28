@@ -66,3 +66,27 @@ export const hero_img="https://ik.imagekit.io/jjyo3gsee/Insperation%20Image/Oppo
 
 export const vectorl= "https://ik.imagekit.io/jjyo3gsee/RevampImg/Vector.png?updatedAt=1730090095369"
 export const vectorr= "https://ik.imagekit.io/jjyo3gsee/RevampImg/Vectorr.png?updatedAt=1730090095303"
+
+export const author_image = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/suganth.jpeg.jpg?updatedAt=1724426232956";
+
+export const projecttag = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Vector.png?updatedAt=1730018407626"
+
+export const certifcate = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/certificate.png?updatedAt=1723830421725";
+
+export const blup = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/bulb.png?updatedAt=1724444840445"
+export const navlogo1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/footerlogo-removebg-preview.png?updatedAt=1724423932603";
+export const navcourseimg1 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/00-presentations-in-figma-cover.webp?updatedAt=1724426524722";
+export const navcourseimg2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/why-banner-v2.png?updatedAt=1723879070794";
+export const card_img= "https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rainbow%20theme/basics-of-histudy-theme.png?updatedAt=1723578078798"
+export const rainbow_logo ="https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rainbow%20theme/rainbow-theme-thumb.jpg?updatedAt=1723565416047";
+export const quote2 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Clip%20path%20group.png?updatedAt=1730011343208"
+export const profile2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Overlay+Border.png?updatedAt=1724256590301"
+
+export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/rafiki.png?updatedAt=1724493855282"
+export const reviwe = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/WhatsApp%20Image%202024-07-09%20at%2014.01.57.png?updatedAt=1724522544880"
+export const header = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact1440.png?updatedAt=1725420148594"
+export const header720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact748.png?updatedAt=1725420144828"
+export const header440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact360.png?updatedAt=1725420133604"
+export const abouth720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about768.png?updatedAt=1725466450864"
+export const abouth = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about1440.png?updatedAt=1725466452021"
+export const abouth440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about360.png?updatedAt=1725466451049"

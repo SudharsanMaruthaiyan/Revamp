@@ -1,6 +1,7 @@
 import React from 'react'
-import { FindCourseCardApi } from '../../assets/FindCourseCardApi'
 import FindCourseCard from './FindCourseCard/FindCourseCard'
+import { FindCourseCardApi } from '../../assets/Api/FindCourseCardApi'
+import { Link } from 'react-router-dom'
 
 const FindCourse = () => {
   return (
@@ -15,9 +16,11 @@ const FindCourse = () => {
                     {
                         FindCourseCardApi.map((e,index)=>(
                             <>
-                                <div key={index}>
-                                    <FindCourseCard float={e.float} name={e.name} rating={e.rating} profile={e.profile} student={e.student} lesson={e.lesson} price={e.price} cart={e.cart} image={e.image} domain={e.domain} title={e.title} project={e.project} hourse={e.hourse} />
-                                </div>
+                                <Link to={"/course"}> 
+                                    <div key={index}>
+                                        <FindCourseCard float={e.float} name={e.name} rating={e.rating} profile={e.profile} student={e.student} lesson={e.lesson} price={e.price} cart={e.cart} image={e.image} domain={e.domain} title={e.title} project={e.project} hourse={e.hourse} />
+                                    </div>
+                                </Link>
                             </>
                         ))
                     }

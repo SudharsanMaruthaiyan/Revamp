@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./Body";
 import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Body";
+import Courseroute from "./Components/Courseroute/Courseroute";
 
 const Applayout  = ()=>{
   return(
@@ -20,8 +21,8 @@ const appRouter = createBrowserRouter([
   },
   {
     path:"/course",
-    element:<Applayout/>
-  }
+    element:<Courseroute/>
+  },
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}></RouterProvider>)
