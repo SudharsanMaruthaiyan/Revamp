@@ -90,3 +90,33 @@ export const header440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/cont
 export const abouth720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about768.png?updatedAt=1725466450864"
 export const abouth = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about1440.png?updatedAt=1725466452021"
 export const abouth440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about360.png?updatedAt=1725466451049"
+
+
+// find card section 
+export const timer = "https://ik.imagekit.io/jjyo3gsee/RevampImg/time.png?updatedAt=1730212150400"
+export const les = "https://ik.imagekit.io/jjyo3gsee/RevampImg/1.png?updatedAt=1730212965431"
+export const stu = "https://ik.imagekit.io/jjyo3gsee/RevampImg/student.png?updatedAt=1730212150479"
+export const prj = "https://ik.imagekit.io/jjyo3gsee/RevampImg/projects.png?updatedAt=1730212835238"
+
+// courses image 
+export const mern = "https://ik.imagekit.io/jjyo3gsee/RevampImg/course1.png?updatedAt=1730215622138"
+export const figma = "https://ik.imagekit.io/jjyo3gsee/RevampImg/course2.png?updatedAt=1730215622141"
+export const flutter = "https://ik.imagekit.io/jjyo3gsee/RevampImg/course3.png?updatedAt=1730215622009"
+export const android = "https://ik.imagekit.io/jjyo3gsee/RevampImg/course4.png?updatedAt=1730215621961"
+export const java = "https://ik.imagekit.io/jjyo3gsee/RevampImg/course5.png?updatedAt=1730215621736"
+
+// export const logo = "https://ik.imagekit.io/HoneyJoe/inspiration/logo.png?updatedAt=1728190204891";
+
+export const blog1_1 = "https://ik.imagekit.io/HoneyJoe/inspiration/blog-3-1.jpg?updatedAt=1728320407714";
+export const blog1_2 = "https://ik.imagekit.io/HoneyJoe/inspiration/blog-3-2.jpg?updatedAt=1728320407820";
+export const blog1_3 = "https://ik.imagekit.io/HoneyJoe/inspiration/blog-3-3.jpg?updatedAt=1728320407768";
+
+export const review3 = "https://ik.imagekit.io/HoneyJoe/inspiration/testimonial-3-1.jpg?updatedAt=1729349162728";
+
+export const author = "https://ik.imagekit.io/HoneyJoe/inspiration/author-1.png?updatedAt=1728320706956"
+
+export const blogimg1 =  "https://ik.imagekit.io/jjyo3gsee/RevampImg/blog.png?updatedAt=1730223171909"
+
+export const courseheader= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20934.png?updatedAt=1730089749671";
+export const coursedhead745= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20736.png?updatedAt=1730090456593"
+export const coursedheadmob ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20737.png?updatedAt=1730090456322"

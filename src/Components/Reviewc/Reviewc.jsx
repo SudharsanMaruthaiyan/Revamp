@@ -5,11 +5,11 @@ const Reviewc = () => {
   return (
     <>
         <div className=" max-w-[100%] mx-auto">
-            <div className=" w-[85%] mx-auto">
-                <div className=' flex flex-col items-center justify-center pb-20 pt-36'>
+            <div className=" w-[80%] mx-auto">
+                {/* <div className=' flex flex-col items-center justify-center pb-20 pt-36'>
                     <h1 className=' text-[#5147F5] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>How About Learn Us</h1>
                     <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Opportunity for Online Learning</h1>
-                </div>
+                </div> */}
                 <div className='grid grid-cols-1 lg:grid-cols-5 gap-8 border p-5 rounded-lg' id="shadow">
                     <div className=" flex flex-col justify-center items-center">
                         <h1 className=" font-[poppins] text-[35px] font-bold"><CountUp 

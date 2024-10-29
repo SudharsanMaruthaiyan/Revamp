@@ -2,39 +2,39 @@ import { UpImg1, UpImg2, UpImg3, UpImg4} from "./ImageApi";
 
 export const UpcomingCardApi = [
     {
-        month:"Jul",
-        day:"06",
+        month:"June",
+        day:"10",
         year:"24",
         image:UpImg1,
-        location:" 8 King Street NY 101 United States",
-        head:"Festival of Architecture and Interior",
+        location:"Internship",
+        head:"Online Training + Internship",
         viewdetails:"View Details"
     },
     {
-        month:"Jul",
-        day:"06",
+        month:"June",
+        day:"15",
         year:"24",
         image:UpImg2,
-        location:" 8 King Street NY 101 United States",
-        head:"Festival of Architecture and Interior",
+        location:"Internship",
+        head:"Online Training + Internship",
         viewdetails:"View Details"
     },
     {
-        month:"Jul",
-        day:"06",
+        month:"June",
+        day:"16",
         year:"24",
         image:UpImg3,
-        location:" 8 King Street NY 101 United States",
-        head:"Festival of Architecture and Interior",
+        location:"Internship",
+        head:"Online Training + Internship",
         viewdetails:"View Details"
     },
     {
-        month:"Jul",
-        day:"06",
+        month:"June",
+        day:"25",
         year:"24",
         image:UpImg4,
-        location:" 8 King Street NY 101 United States",
-        head:"Festival of Architecture and Interior",
+        location:"Internship",
+        head:"Online Training + Internship",
         viewdetails:"View Details"
     },
 ]

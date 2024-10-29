@@ -1,26 +1,27 @@
 import { Heart } from "lucide-react";
-import { FcourseImg1,FcourseImg2,FcourseImg3,FcourseImg4,FcourseImg5,FcourseImg6,FProfileimag  } from "./ImageApi";
+import { android, FcourseImg1,FcourseImg2,FcourseImg3,FcourseImg4,FcourseImg5,FcourseImg6,figma,flutter,FProfileimag, java, mern  } from "./ImageApi";
 
 export const FindCourseCardApi = [
     {
         float:"FEATURED",
         rating:"(2)",
-        image:FcourseImg1,
+        image:mern,
         profile:FProfileimag,
         name:"Jenica Smith",
         domain:"in Marketing",
         title:"MERN STACK DEVELOPMENT",
-        hourse:"72.5 hrs",
+        hourse:"72 hrs",
         project:"12 Projects",
-        student:"100 Students",
+        student:"99 Students",
         lesson:"140+ Lessons",
-        price:"$69.00",
-        cart:"Enroll"
+        mark:"₹7000",
+        price:"₹3500",
+        cart:"ENROLL NOW"
     },
     {
         float:"FEATURED",
         rating:"(2)",
-        image:FcourseImg2,
+        image:figma,
         profile:FProfileimag,
         name:"Jenica Smith",
         domain:"in Marketing",
@@ -30,12 +31,13 @@ export const FindCourseCardApi = [
         student:"75 Students",
         lesson:"60 Lessons",
         price:"$69.00",
-        cart:"Enroll"
+        mark:"₹7000",
+        cart:"ENROLL NOW"
     },
     {
         float:"FEATURED",
         rating:"(2)",
-        image:FcourseImg3,
+        image:android,
         profile:FProfileimag,
         name:"Jenica Smith",
         domain:"in Marketing",
@@ -45,12 +47,13 @@ export const FindCourseCardApi = [
         student:"600+ Students",
         lesson:"45+ Lessons",
         price:"$69.00",
-        cart:"Enroll"
+        mark:"₹7000",
+        cart:"ENROLL NOW"
     },
     {
         float:"FEATURED",
         rating:"(2)",
-        image:FcourseImg4,
+        image:java,
         profile:FProfileimag,
         name:"Jenica Smith",
         domain:"in Marketing",
@@ -60,12 +63,13 @@ export const FindCourseCardApi = [
         student:"90 Students",
         lesson:"45 Lessons",
         price:"$69.00",
-        cart:"Enroll"
+        mark:"₹7000",
+        cart:"ENROLL NOW"
     },
     {
         float:"FEATURED",
         rating:"(2)",
-        image:FcourseImg5,
+        image: flutter,
         profile:FProfileimag,
         name:"Jenica Smith",
         domain:"in Marketing",
@@ -75,6 +79,7 @@ export const FindCourseCardApi = [
         student:"60 Students",
         lesson:"45 Lessons",
         price:"$69.00",
-        cart:"Enroll"
+        mark:"₹7000",
+        cart:"ENROLL NOW"
     },
 ]

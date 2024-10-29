@@ -7,7 +7,7 @@ const Navcourse = () => {
   return (
     <>
       <div className="2xl:container">
-        <div className="w-[100%]">
+        <div className="w-[100%] pt-20">
           <div className="">
             <Navabout></Navabout>
           </div>

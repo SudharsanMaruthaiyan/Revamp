@@ -46,7 +46,7 @@ function ProjectSection() {
         {ProjectSectionData.map((e) => {
           return (
             <>
-            <div className="mx-2 my-2">
+            <div className="mx-2 py-20">
             <ProjectSectionCard
                 img={e.img}
                 tag={e.tag}

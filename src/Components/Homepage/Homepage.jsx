@@ -1,22 +1,22 @@
 
 import { Folders,UserRound,History, Heart, Star, ArrowRight,Share,ArrowUpRight } from "lucide-react"
-import { suganth, FcourseImg1, FProfileimag, vectorl, vectorr } from "../../assets/Api/ImageApi";
+import { suganth, FcourseImg1, FProfileimag, vectorl, vectorr, prj, les, stu, timer, mern } from "../../assets/Api/ImageApi";
 const Homepage = () => {
   return (
     <>
-        <div className=" max-w-[100%] mx-auto" > 
-            <div className=" w-[85%] lg:w-[85%] mx-auto py-[30px] lg:py-[40px] mt-24">
-                <div className=" grid grid-cols-1 md:grid-cols-4 w-full items-center gap-y-10">
-                    <div className=" col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-5">
+        <div className="max-w-[100%] mx-auto"> 
+            <div className="w-[80%] lg:w-[80%] mx-auto py-[50px] lg:pt-[4.3rem] lg:pb-[4rem] mt-24">
+                <div className="grid grid-cols-1 md:grid-cols-4 w-full items-center gap-y-10">
+                    <div className="col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-5">
                         <div className="flex items-center gap-2">
                             <img src={vectorl} alt="Vector_icon" />
                             <p className=" font-[poppins] text-base text-[#FF9F00]">EDUCATE THEM WHILE THEY ARE STUDENT</p>
                             <img src={vectorr} alt="Vector_icon" />
                         </div>
                         <div className=" py-2">
-                            <p className=" text-[26px] font-[poppins] lg:text-[57px] font-bold md:text-[54px] text-wrap md:text-nowrap">MOULDING YOUNG MINDS <br /> <span className="lg:text-[54px] md:text-[52px] text-[24px] font-medium ">to Enhance their Skills</span> </p>
+                            <p className=" text-[26px] font-[poppins] lg:text-[66px] font-bold md:text-[54px] text-wrap md:text-nowrap leading-tight">MOULDING YOUNG MINDS <br /> <span className="lg:text-[66px] md:text-[52px] text-[24px] font-medium">to Enhance their Skills</span> </p>
                             
-                            <p className=" font-[poppins] lg:text-[60px] text-[26px] font-bold md:leading-tight md:text-[54px] underline text-[#FF9F00]">WITH REVAMP </p>
+                            <p className=" font-[poppins] lg:text-[66px] text-[26px] font-bold md:leading-tight md:text-[54px] underline text-[#FF9F00]">WITH REVAMP </p>
 
                             <p className=" font-[poppins] text-slate-600 py-5 text-wrap lg:pr-72">Discover a world of knowledge and opportunities with our online education platform pursue a new career</p>
                         </div>
@@ -59,22 +59,22 @@ const Homepage = () => {
                         </div>
                     </div>
                     {/* card  */}
-                    <div className=" col-span-5 xl:col-span-1 order-2 md:order-1">
+                    <div className="col-span-5 xl:col-span-1 order-2 md:order-1">
                         <div className=" bg-white border rounded-3xl pb-4 " id="shadow">
                             <div className=" relative p-3">
                                 <div className=" relative w-full">
-                                    <img src={FcourseImg1} alt="Course_image" className=" rounded-2xl w-full" />
+                                    <img src={mern} alt="Course_image" className=" rounded-2xl w-full" />
                                     <p className=" bg-[#FF9F00] text-white px-2 py-1 w-fit rounded-md font-bold  font-[poppins] text-sm absolute top-8 left-8">FEATURED</p>
                                 </div>
                                 <div className=" absolute w-full -bottom-1">
                                     <div className=" flex items-center gap-2 justify-between px-8">
                                         <div className=" flex items-center shadow-lg border px-3 py-1 rounded-3xl bg-white gap-1">
                                             <div className=" flex items-center gap-1">
-                                                <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                                <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                                <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                                <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                                <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
+                                                <Star className=" w-4 stroke-[#FF9F00] fill-[#FF9F00]"/>
+                                                <Star className=" w-4 stroke-[#FF9F00] fill-[#FF9F00]"/>
+                                                <Star className=" w-4 stroke-[#FF9F00] fill-[#FF9F00]"/>
+                                                <Star className=" w-4 stroke-[#FF9F00] fill-[#FF9F00]"/>
+                                                <Star className=" w-4 stroke-[#FF9F00] fill-[#FF9F00]"/>
                                             </div>
                                             <p className=" font-[poppins]">5</p>
                                         </div>
@@ -87,35 +87,31 @@ const Homepage = () => {
 
                             <div className=" px-7 pt-6">
                                 <div className=" flex items-center gap-2">
-                                    <img src={FProfileimag} alt="Course_profile_image" className=" rounded-full w-8" />
+                                    <img src={suganth} alt="Course_profile_image" className=" rounded-full w-8" />
                                     <p className=" font-[poppins]"> <span className=" text-[#FF9F00]">Jenica Smith</span>  in Marketing</p>
                                 </div>
-                                <h1 className=" font-[poppins] md:text-xl text-lg font-bold py-3">MERN STACK DEVELOPMENT</h1>
+                                <h1 className=" font-[poppins] md:text-xl text-lg font-bold py-3 2xl:text-nowrap">MERN STACK DEVELOPMENT</h1>
                                 <div className=" flex items-center gap-x-4 gap-y-1 flex-wrap">
                                     <div className=" flex items-center gap-2">
-                                        <History className=" w-5 stroke-[#FF9F00]"/>
+                                        <img src={timer} alt="" />
                                         <p className=" font-[poppins] text-slate-600 text-nowrap text-sm">72.5 hrs</p>
                                     </div>
                                     <div className=" flex items-center gap-2">
-                                        <UserRound className=" w-5 stroke-[#FF9F00]"/>   
+                                        <img src={stu} alt="" />  
                                         <p className=" font-[poppins] text-slate-600 text-nowrap text-sm">100 Students</p>
                                     </div>
                                     <div className=" flex items-center gap-2">
-                                        <Folders className=" w-5 stroke-[#FF9F00]"/>
+                                        <img src={les} alt="" />
                                         <p className=" font-[poppins] text-slate-600 text-nowrap text-sm">140+ Lesson</p>
                                     </div>
                                     <div className=" flex items-center gap-2">
-                                        <Folders className=" w-5 stroke-[#FF9F00]"/>
+                                        <img src={prj} alt="Project" />
                                         <p className=" font-[poppins] text-slate-600 text-nowrap text-sm">12 Projects</p>
                                     </div>
                                 </div>
-                                <div className=" py-4">
-                                    <div className=" flex items-center bg-[#F5F6FA] rounded-md shadow-2xl justify-between py-3 px-5  relative" id="">
-                                        <h3 className=" font-[poppins] font-bold text-sm">$6.7</h3>
-                                        <div className=" absolute -top-3 right-0 shadow-lg">
-                                            <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2">Enroll<ArrowRight className=" w-5 "/></button>
-                                        </div>
-                                    </div>
+                                <div className=" py-4 flex items-center gap-2">
+                                    <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through">₹7000</span>₹3500</button>
+                                    <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-nowrap text-sm gap-2">Enroll Now<ArrowRight className=" w-5 "/></button>
                                 </div>
                             </div>
                         </div>
