@@ -13,7 +13,7 @@ const Body = () => {
       <Reviewc/>
       <FindCourse/>
       <Review3/>
-      <Blog2/>
+      {/* <Blog2/> */}
       <UpcomingEvent/>
     </>
   )
