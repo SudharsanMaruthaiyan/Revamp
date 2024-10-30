@@ -1,12 +1,9 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Curriculam from "../Curriculam/Curriculam";
-import Content from "../Navcourse/Navcourse";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
-import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
-import ProjectSection from "../ProjectSection/ProjectSection";
-import TapReview3 from "../../TapReview3/TapReview3";
+import LinkedInSection from "../LinkedInSection/LinkedInSection";
+
 
 
 function Navtab() {
@@ -50,7 +47,7 @@ function Navtab() {
   return (
     <>
       <div className="2xl:container">
-        <div className="lg:w-[100%]  w-[95%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
+        <div className="lg:w-[80%]  w-[95%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
           <Tabs defaultValue={1}>
             <TabsList className="pb-3">
               <div className="slider-container py-5 px-3 rounded-lg " id="certi">
@@ -72,7 +69,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">Course Info</button>
+                      <button className="">LINKED IN </button>
                     </Tab>
                   </div>
                   <div>
@@ -92,7 +89,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">Curriculam</button>
+                      <button className="">STUDENTS PROJECT</button>
                     </Tab>
                   </div>
                   <div>
@@ -112,7 +109,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">Review</button>
+                      <button className="">FEATURED POST</button>
                     </Tab>
                   </div>
 
@@ -133,7 +130,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">Projects</button>
+                      <button className="">INSTAGRAM</button>
                     </Tab>
                   </div>
                   <div>
@@ -153,26 +150,26 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">Announcement</button>
+                      <button className="">GALLERY</button>
                     </Tab>
                   </div>
                 </Slider>
               </div>
             </TabsList>
             <TabPanel value={1}>
-              <Content></Content>
+              <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={2}>
-              <Curriculam></Curriculam>
+            <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={3}>
-              <TapReview3/>
+            <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={4}>
-              <ProjectSection></ProjectSection>
+            <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={5}>
-              <UpcomingEvent></UpcomingEvent>
+            <LinkedInSection></LinkedInSection>
             </TabPanel>
           </Tabs>
         </div>

@@ -30,6 +30,9 @@ const Navbar = () => {
                 <a href="#schedule" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">About us</a>
               </li>
               <li>
+              <Link to={"/gallery"}> <a className="font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Gallery</a></Link>
+              </li>
+              <li>
                 <a href="#venue" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Contact</a>
               </li>
               <li className="">
@@ -60,6 +63,9 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a href="#schedule" className=" font-[poppins] font-semibold text-lg">About us</a>
+                    </li>
+                    <li>
+                      <a href="#schedule" className=" font-[poppins] font-semibold text-lg">Gallery</a>
                     </li>
                     <li>
                       <a href="#venue" className=" font-[poppins] font-semibold text-lg">Contact</a>
