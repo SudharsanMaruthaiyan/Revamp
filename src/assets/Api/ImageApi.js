@@ -120,3 +120,5 @@ export const blogimg1 =  "https://ik.imagekit.io/jjyo3gsee/RevampImg/blog.png?up
 export const courseheader= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20934.png?updatedAt=1730089749671";
 export const coursedhead745= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20736.png?updatedAt=1730090456593"
 export const coursedheadmob ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20737.png?updatedAt=1730090456322"
+
+export const footer_image = "https://ik.imagekit.io/jjyo3gsee/sk.png?updatedAt=1732105110400"

@@ -6,19 +6,19 @@ const Homepage = () => {
     <>
         <div className="max-w-[100%] mx-auto"> 
             <div className="w-[80%] lg:w-[80%] mx-auto py-[50px] lg:pt-[4.3rem] lg:pb-[4rem] mt-24">
-                <div className="grid grid-cols-1 md:grid-cols-4 w-full items-center gap-y-10">
-                    <div className="col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-5">
+                <div className="grid grid-cols-1 md:grid-cols-7 w-full items-center gap-y-10">
+                    <div className="col-span-4 xl:col-span-5  order-2 md:order-1 lg:pt-5">
                         <div className="flex items-center gap-2">
                             <img src={vectorl} alt="Vector_icon" />
                             <p className=" font-[poppins] text-base text-[#FF9F00]">EDUCATE THEM WHILE THEY ARE STUDENT</p>
                             <img src={vectorr} alt="Vector_icon" />
                         </div>
                         <div className=" py-2">
-                            <p className=" text-[26px] font-[poppins] lg:text-[66px] font-bold md:text-[54px] text-wrap md:text-nowrap leading-tight">MOULDING YOUNG MINDS <br /> <span className="lg:text-[66px] md:text-[52px] text-[24px] font-medium">to Enhance their Skills</span> </p>
+                            <p className=" text-[26px] font-[poppins] lg:text-[66px] font-bold md:text-[54px] text-wrap md:text-nowrap leading-tight xl:text-wrap">MOULDING YOUNG MINDS <br /> <span className="lg:text-[66px] md:text-[52px] text-[24px] font-medium xl:text-wrap">to Enhance their Skills</span> </p>
                             
                             <p className=" font-[poppins] lg:text-[66px] text-[26px] font-bold md:leading-tight md:text-[54px] underline text-[#FF9F00]">WITH REVAMP </p>
 
-                            <p className=" font-[poppins] text-slate-600 py-5 text-wrap lg:pr-72">Discover a world of knowledge and opportunities with our online education platform pursue a new career</p>
+                            <p className=" font-[poppins] text-slate-600 py-5 text-wrap xl:pr-44">Discover a world of knowledge and opportunities with our online education platform pursue a new career</p>
                         </div>
                         <div className=" flex items-center gap-5 flex-wrap ">
                             <div className="flex flex-col py-3 px-4 rounded-lg border" id="shadow">
@@ -59,7 +59,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     {/* card  */}
-                    <div className="col-span-5 xl:col-span-1 order-2 md:order-1">
+                    <div className="col-span-7 xl:col-span-2 order-2 md:order-1">
                         <div className=" bg-white border rounded-3xl pb-4 " id="shadow">
                             <div className=" relative p-3">
                                 <div className=" relative w-full">
@@ -110,7 +110,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                                 <div className=" py-4 flex items-center gap-2">
-                                    <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through">₹7000</span>₹3500</button>
+                                    <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through font-[poppins]">₹7000</span>₹3500</button>
                                     <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-nowrap text-sm gap-2">Enroll Now<ArrowRight className=" w-5 "/></button>
                                 </div>
                             </div>

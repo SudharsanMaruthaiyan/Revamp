@@ -5,12 +5,14 @@ import App from "./Body";
 import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Body";
 import Courseroute from "./Components/Courseroute/Courseroute";
+import Footer from "./Components/Footer/Footer";
 
 const Applayout  = ()=>{
   return(
     <>
       <Navbar/>
       <Body/>
+      <Footer/>
     </>
   )
 }

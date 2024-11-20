@@ -8,11 +8,17 @@ const FindCourse = () => {
     <>
         <div className=' max-w-[100%] mx-auto'>
             <div className=' w-[80%] mx-auto'>
-                <div className=' flex flex-col items-start justify-center pt-20 pb-10'>
-                    <div className=' flex'>
-                        <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Find Courses</h1>
+                <div className=' flex items-end justify-between'>
+                    <div className=' flex flex-col items-start justify-center pt-20 mb-10'>
+                        <div className=' flex'>
+                            <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Find Courses</h1>
+                        </div>
+                        <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Best Solutions For Life <span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/> Coach Solutions</span></h1>
                     </div>
-                    <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Best Solutions For Life <span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/> Coach Solutions</span></h1>
+                    <div>
+                        <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
+                    </div>
+
                 </div>
                 <div className=' grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-x-5 gap-y-12'>
                     {

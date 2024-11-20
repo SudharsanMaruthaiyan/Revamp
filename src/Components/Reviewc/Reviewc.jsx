@@ -28,7 +28,7 @@ const Reviewc = () => {
                         </div>
                         <p className=" font-[poppins] font-medium"> <CountUp 
                         end={3272} 
-                        duration={3}
+                        duration={2.5}
                         separator=", "
                         /> + Rating
                     </p>
@@ -55,13 +55,14 @@ const Reviewc = () => {
                             <Cuboid className=" fill-[#09B9B1] stroke-white  w-8 h-8"/>
                         </div>
                         <div>
-                            <h1 className="  font-[poppins] font-bold text-slate-800 lg:text-lg text-base text-wrap">
+                            <h1 className="text-center font-[poppins] font-bold text-slate-800 md:text-xl lg:text-2xl text-lg text-wrap">
                             <CountUp 
                                 end={200}
-                                duration={2}
+                                duration={2.5}
                                 separator=","
-                            /> + Courses
-                            <br /> Students</h1>
+                            /> +  <br /> 
+                            <p className=" text-base">Courses Students</p>
+                            </h1>
                         </div>
                     </div>
                     <div className=" flex items-center gap-4">
@@ -69,13 +70,16 @@ const Reviewc = () => {
                             <Cuboid className=" fill-[#87C252] stroke-white  w-8 h-8"/>
                         </div>
                         <div>
-                            <h1 className="  font-[poppins] font-bold text-slate-800 lg:text-lg text-base text-wrap">
+                            <h1 className="text-center font-[poppins] font-bold text-slate-800 md:text-xl lg:text-2xl text-lg text-wrap">
                             <CountUp 
                                 end={800}
-                                duration={2}
+                                duration={2.5}
                                 separator=","
-                            />k+ Enrolled
-                            <br /> Available</h1>
+                            /> k+  <br />
+                             <p className=" text-base">
+                                Enrolled Available
+                             </p>
+                             </h1>
                         </div>
                     </div>
                 </div>

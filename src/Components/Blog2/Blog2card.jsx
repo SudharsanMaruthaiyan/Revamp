@@ -3,7 +3,7 @@ import { ArrowRight, ChevronRight, Plus } from "lucide-react";
 const Blog2card = (props) => {
   return (
     <>
-    <div className=" relative">
+    <div className=" relative" id="shadow">
       <div className="overflow-hidden group relative hover:-translate-y-2 transition-all">
         <img src={props.imgurl} alt="blog image" className="w-[100%] h-[400px]  object-cover z-20 rounded-t-xl" />
         <div className="absolute top-0 w-full h-full flex justify-center items-center -translate-y-[100%] group-hover:-translate-y-[1%] transition  bg-slate-300 opacity-55 rounded-xl">

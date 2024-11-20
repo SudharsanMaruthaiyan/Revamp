@@ -5,7 +5,7 @@ import { Star } from "lucide-react";
 const Review3card = () => {
   return (
     <>
-      <div className="max-w-[100%] mx-auto border py-10 px-5">
+      <div className="max-w-[100%] mx-auto border py-10 px-5" id="shadow">
         <div className="lg:w-[90%] mx-auto grid lg:grid-cols-3 grid-cols-1">
           <div className="col-span-1">
             <img src={review3} alt="" className=" object-fill rounded-lg"/>
