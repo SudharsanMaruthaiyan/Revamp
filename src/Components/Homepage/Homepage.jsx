@@ -109,11 +109,10 @@ const Homepage = () => {
                                     </div>
                                 </div>
                                 <div className=" py-4 flex items-center gap-2">
-                                    <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through font-[poppins]">₹7000</span>₹3500</button>
-                                <div className=" py-4 flex items-center gap-2 flex-wrap">
-                                    <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through">₹7000</span>₹3500</button>
-                                    <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-nowrap text-sm gap-2">Enroll Now<ArrowRight className=" w-5 "/></button>
-                                </div>
+                                    <div className=" py-4 flex items-center gap-4 flex-wrap">
+                                        <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through">₹7000</span>₹3500</button>
+                                        <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-nowrap text-sm gap-2">Enroll Now<ArrowRight className=" w-5 "/></button>
+                                    </div>
                             </div>
                         </div>
                     </div>

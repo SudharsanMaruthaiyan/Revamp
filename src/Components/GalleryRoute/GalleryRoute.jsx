@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 import Body from "./Body/Body"
 import Header from "./Header/Header"
@@ -8,6 +9,7 @@ const GalleryRoute = () => {
         <Navbar></Navbar>
         <Header></Header>
         <Body></Body>
+        <Footer/>
     </>
   )
 }

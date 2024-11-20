@@ -58,13 +58,16 @@ const Navbar = () => {
                       <a href="" className=" font-[poppins] font-medium text-lg">Home</a>
                     </li>
                     <li>
-                      <a href="#about" className=" font-[poppins] font-medium text-lg">Hackathon</a>
-                    </li>
-                    <li>
                       <Link to={"/course"}> <a className="font-[poppins] font-medium text-lg">Course</a></Link>
                     </li>
                     <li>
                       <a href="#schedule" className=" font-[poppins] font-medium text-lg">About us</a>
+                    </li>
+                    <li>
+                      <a href="#venue" className=" font-[poppins] font-medium text-lg">Gallery</a>
+                    </li>
+                    <li>
+                      <a href="#venue" className=" font-[poppins] font-medium text-lg">Blog</a>
                     </li>
                     <li>
                       <a href="#venue" className=" font-[poppins] font-medium text-lg">Contact</a>
@@ -72,27 +75,6 @@ const Navbar = () => {
                     <li className="">
                       <button className=" font-[poppins] bg-white hover:bg-[#FF9F00] hover:border-white border-2 py-2 px-4 rounded-md  text-white font-medium text-lg">Login</button>
                     </li>
-                <li>
-                <Link to={"/"}><a href="" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Home</a></Link>
-              </li>
-              <li>
-                <a href="#about" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Hackathon</a>
-              </li>
-              <li>
-                <Link to={"/course"}> <a className="font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Course</a></Link>
-              </li>
-              <li>
-                <a href="#schedule" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">About us</a>
-              </li>
-              <li>
-              <Link to={"/gallery"}> <a className="font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Gallery</a></Link>
-              </li>
-              <li>
-                <a href="#venue" className=" font-[poppins] text-nowrap hover:text-[#FF9F00] font-semibold text-lg">Contact</a>
-              </li>
-              <li className="">
-                <button className=" font-[poppins] bg-[#FF9F00] py-2 px-4 rounded-md  text-white font-semibold text-lg">Login</button>
-              </li>
                 </ul>
               </Paragraph>
             </SideSheet>
