@@ -72,7 +72,7 @@ const Review3 = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1">
+            <div className="grid grid-cols-1 border" id="shadow">
               <Slider {...settings}>
                 {Review1CardApi.map((student, index) => (
                   <Review3Card key={index} {...student} />

@@ -130,3 +130,6 @@ export const gallery_header720 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/G
 export const gallery_header420 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Gallery_Header420.png?updatedAt=1730294919506"
 
 export const linked_in = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/linkedin_image.png?updatedAt=1730296024651"
+export const gallery = "https://ik.imagekit.io/jjyo3gsee/Gallery.png?updatedAt=1732129803846";
+export const gallery1 = "https://ik.imagekit.io/jjyo3gsee/Gallery1.png?updatedAt=1732130295207"
+export const gallery2 = "https://ik.imagekit.io/jjyo3gsee/Gallery2.png?updatedAt=1732130295295"

@@ -44,15 +44,15 @@ const LinkedInSection = () => {
 
   return (
     <>
-      <div className="max-w-[100%] overflow-hidden">
-        <div className="w-[100%] lg:w-[100%] grid grid-cols-1 py-[60px]">
+      <div className="max-w-[100%]">
+        <div className="w-[100%] lg:w-[100%] mx-auto grid grid-cols-1 py-[60px]">
           <div className="flex flex-col items-center gap-5">
             <div>
               <p className="bg-[#FF9F00] text-white font-[poppins] px-3 py-2 rounded-full">How We Start Our Journey</p>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div>
-                <p className="font-[poppins] font-bold text-[22px] lg:text-[40px]">Start your Learning Journey Today!</p>
+                <p className="font-[poppins] font-bold text-[22px] text-center lg:text-[40px]">Start your Learning Journey Today!</p>
               </div>
               <div>
                 <p className="font-[poppins] lg:text-[20px] text-[14px] text-center">
@@ -62,18 +62,18 @@ const LinkedInSection = () => {
               </div>
             </div>
           </div>
-          <div>
-          <Slider {...settings}>
-        {LinkedInData.map((item,index) => {
-          return (
-            <>
-            <div key={index} className="mx-2 py-20">
-              <LinkedinCard name={item.name} desc={item.desc} domain={item.domain} cdimage={item.cdimage} image={item.image}/>
-            </div>
-            </>
-          );
-        })}
-      </Slider>
+          <div className="">
+            <Slider {...settings}>
+              {LinkedInData.map((item,index) => {
+                return (
+                  <>
+                  <div key={index} className="mx-3 py-20">
+                    <LinkedinCard name={item.name} desc={item.desc} domain={item.domain} cdimage={item.cdimage} image={item.image}/>
+                  </div>
+                  </>
+                );
+              })}
+            </Slider>
           </div>
         </div>
       </div>

@@ -46,8 +46,8 @@ function Navtab() {
 
   return (
     <>
-      <div className="2xl:container">
-        <div className="lg:w-[80%]  w-[95%] mx-auto grid grid-cols-1 mb-28  py-[40px]">
+      <div className="4xl:container mx-auto">
+        <div className="md:w-[80%] 4xl:w-[100%] w-[80%] max-w-[100%] mx-auto mb-28 py-2 overflow-hidden">
           <Tabs defaultValue={1}>
             <TabsList className="pb-3">
               <div className="slider-container py-5 px-3 rounded-lg " id="certi">

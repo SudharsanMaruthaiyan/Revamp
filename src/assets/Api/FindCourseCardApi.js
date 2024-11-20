@@ -50,36 +50,4 @@ export const FindCourseCardApi = [
         mark:"₹7000",
         cart:"ENROLL NOW"
     },
-    {
-        float:"FEATURED",
-        rating:"(2)",
-        image:java,
-        profile:FProfileimag,
-        name:"Jenica Smith",
-        domain:"in Marketing",
-        title:"JAVA & SPRING BOOT DEVELOPMENT",
-        hourse:"30 hrs",
-        project:"4 Projects",
-        student:"90 Students",
-        lesson:"45 Lessons",
-        price:"$69.00",
-        mark:"₹7000",
-        cart:"ENROLL NOW"
-    },
-    {
-        float:"FEATURED",
-        rating:"(2)",
-        image: flutter,
-        profile:FProfileimag,
-        name:"Jenica Smith",
-        domain:"in Marketing",
-        title:"FLUTTER DEVELOPMENT",
-        hourse:"25 hrs",
-        project:"04 Projects",
-        student:"60 Students",
-        lesson:"45 Lessons",
-        price:"$69.00",
-        mark:"₹7000",
-        cart:"ENROLL NOW"
-    },
 ]

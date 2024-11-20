@@ -6,7 +6,7 @@ const LinkedinCard = ({image,name,desc,cdimage,domain}) => {
   return (
     <>
         <Link>
-            <div className=' rounded-md p-3' id='shadow'>
+            <div className=' rounded-md p-4' id='shadow'>
                 <div className=' flex items-center justify-between' >
                     <div className=' flex items-center gap-2'>
                         <img className=' w-12 rounded-full' src={image} alt="" />
@@ -18,8 +18,7 @@ const LinkedinCard = ({image,name,desc,cdimage,domain}) => {
                     <Twitter className=' stroke-[#3DACE6] fill-[#3DACE6] w-5'/>
                 </div>
                 <p className=' font-[poppins] text-sm py-3'>{desc}</p>
-                <img className=' rounded-lg' src={cdimage} alt="" />
-
+                <img className='rounded-lg w-full' src={cdimage} alt="" />
             </div>
         </Link>
     </>

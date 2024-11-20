@@ -55,7 +55,9 @@ const Navbar = () => {
               <Paragraph height="100vh" backgroundColor="#FF9F00">
                 <ul className=" flex flex-col gap-5 font-[poppins] text-[20px] text-center py-5 text-white">
                     <li>
-                      <a href="" className=" font-[poppins] font-medium text-lg">Home</a>
+                      <Link to={'/'}>
+                        <a href="" className=" font-[poppins] font-medium text-lg">Home</a>
+                      </Link>
                     </li>
                     <li>
                       <Link to={"/course"}> <a className="font-[poppins] font-medium text-lg">Course</a></Link>
