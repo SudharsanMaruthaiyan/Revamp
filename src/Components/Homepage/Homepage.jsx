@@ -2,10 +2,9 @@
 import { Folders,UserRound,History, Heart, Star, ArrowRight,Share,ArrowUpRight } from "lucide-react"
 import { suganth, FcourseImg1, FProfileimag, vectorl, vectorr, prj, les, stu, timer, mern } from "../../assets/Api/ImageApi";
 const Homepage = () => {
-  return (
-    <>
-        <div className="max-w-[100%] mx-auto"> 
-            <div className="w-[80%] lg:w-[80%] mx-auto py-[50px] lg:pt-[4.3rem] lg:pb-[4rem] mt-24">
+    return(
+    <>        
+        <div className="w-[80%] lg:w-[80%] mx-auto py-[50px] lg:pt-[4.3rem] lg:pb-[4rem] mt-24">
                 <div className="grid grid-cols-1 md:grid-cols-7 w-full items-center gap-y-10">
                     <div className="col-span-4 xl:col-span-5  order-2 md:order-1 lg:pt-5">
                         <div className="flex items-center gap-2">
@@ -109,13 +108,10 @@ const Homepage = () => {
                                         <p className=" font-[poppins] text-slate-600 text-nowrap text-sm">12 Projects</p>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div className=" py-4 flex items-center gap-2">
                                     <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through font-[poppins]">₹7000</span>₹3500</button>
-=======
                                 <div className=" py-4 flex items-center gap-2 flex-wrap">
                                     <button className=" flex items-center font-[poppins] font-bold hover:bg-black bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-sm gap-2"><span className="line-through">₹7000</span>₹3500</button>
->>>>>>> 76cee386cebe34fbbd97d85522e4821bab054169
                                     <button className=" flex items-center font-[poppins] font-bold bg-black hover:bg-[#FF9F00] px-4 py-2 transition-colors rounded-lg text-white text-nowrap text-sm gap-2">Enroll Now<ArrowRight className=" w-5 "/></button>
                                 </div>
                             </div>
@@ -125,7 +121,8 @@ const Homepage = () => {
             </div>
         </div>
     </>
-  )
+
+    )
 }
 
 export default Homepage
