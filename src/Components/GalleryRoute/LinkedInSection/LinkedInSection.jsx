@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { LinkedInData } from "../../../assets/Api/LinkedInData";
 import { linked_in } from "../../../assets/Api/ImageApi";
+import LinkedinCard from "../LinkedinCard/LinkedinCard";
 
 const LinkedInSection = () => {
     const settings = {
@@ -43,7 +44,7 @@ const LinkedInSection = () => {
 
   return (
     <>
-      <div className="max-[100%]">
+      <div className="max-w-[100%] overflow-hidden">
         <div className="w-[100%] lg:w-[100%] grid grid-cols-1 py-[60px]">
           <div className="flex flex-col items-center gap-5">
             <div>
@@ -63,11 +64,11 @@ const LinkedInSection = () => {
           </div>
           <div>
           <Slider {...settings}>
-        {LinkedInData.map((e) => {
+        {LinkedInData.map((item,index) => {
           return (
             <>
-            <div className="mx-2 py-20">
-                <img src={e.imgurl} alt="" />
+            <div key={index} className="mx-2 py-20">
+              <LinkedinCard name={item.name} desc={item.desc} domain={item.domain} cdimage={item.cdimage} image={item.image}/>
             </div>
             </>
           );

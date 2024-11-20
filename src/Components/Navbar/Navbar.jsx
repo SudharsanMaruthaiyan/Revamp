@@ -64,7 +64,9 @@ const Navbar = () => {
                       <a href="#schedule" className=" font-[poppins] font-medium text-lg">About us</a>
                     </li>
                     <li>
-                      <a href="#venue" className=" font-[poppins] font-medium text-lg">Gallery</a>
+                      <Link to={"/gallery"}>
+                        <a href="#venue" className=" font-[poppins] font-medium text-lg">Gallery</a>
+                      </Link>
                     </li>
                     <li>
                       <a href="#venue" className=" font-[poppins] font-medium text-lg">Blog</a>
