@@ -121,4 +121,15 @@ export const courseheader= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2
 export const coursedhead745= "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20736.png?updatedAt=1730090456593"
 export const coursedheadmob ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%20737.png?updatedAt=1730090456322"
 
+<<<<<<< HEAD
 export const footer_image = "https://ik.imagekit.io/jjyo3gsee/sk.png?updatedAt=1732105110400"
+=======
+
+// Gallery Route 
+
+export const gallery_header = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Gallery_Header720.png?updatedAt=1730294920132";
+export const gallery_header720 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Gallery_Header.png?updatedAt=1730294918294";
+export const gallery_header420 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Gallery_Header420.png?updatedAt=1730294919506"
+
+export const linked_in = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/linkedin_image.png?updatedAt=1730296024651"
+>>>>>>> 76cee386cebe34fbbd97d85522e4821bab054169
