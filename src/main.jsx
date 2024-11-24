@@ -7,6 +7,7 @@ import Body from "./Body";
 import Courseroute from "./Components/Courseroute/Courseroute";
 import Footer from "./Components/Footer/Footer";
 import GalleryRoute from "./Components/GalleryRoute/GalleryRoute";
+import AboutRoute from "./Components/AboutRoute/AboutRoute";
 
 const Applayout  = ()=>{
   return(
@@ -29,6 +30,10 @@ const appRouter = createBrowserRouter([
   {
     path:"/gallery",
     element:<GalleryRoute />
+  },
+  {
+    path:"/about",
+    element:<AboutRoute />
   },
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));

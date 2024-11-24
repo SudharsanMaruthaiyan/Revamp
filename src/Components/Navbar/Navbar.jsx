@@ -24,7 +24,9 @@ const Navbar = () => {
                 <Link to={"/course"}> <a className="font-[poppins] text-nowrap  font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">Course</a></Link>
               </li>
               <li>
-                <a href="#schedule" className=" font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">About us</a>
+                <Link to={"/about"}>
+                  <a href="#schedule" className=" font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">About us</a>
+                </Link>
               </li>
               <li>
                 <Link to={"/gallery"}> <a className="font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">Gallery</a>
