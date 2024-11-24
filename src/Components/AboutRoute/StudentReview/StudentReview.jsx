@@ -36,6 +36,15 @@ const StudentReview = () => {
           }
         },
         {
+          breakpoint: 1276,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
           breakpoint: 1024,
           settings: {
             slidesToShow: 1,
@@ -63,7 +72,7 @@ const StudentReview = () => {
     };
 
   return (
-    <div className=' max-w-[100%] mx-auto h-screen bg-gradient-to-t from-[#FFFFFF] to-[#FFF1DB] py-12 mb-20 rounded-[50px]'>
+    <div className=' max-w-[100%] mx-auto bg-gradient-to-t from-[#FFFFFF] to-[#FFF1DB] py-12 mb-20 rounded-[50px]'>
         <div className=' w-[80%] mx-auto overflow- mb-10'>
             <div className=' flex flex-col justify-center items-center'>
                 <h1 className=' font-semibold text-4xl font-[poppins] pt-10'>What our students say</h1>
@@ -95,7 +104,7 @@ const StudentReview = () => {
                            <Star className=' stroke-white fill-white w-5'/>
                      </div>
                      <p className=' py-4 leading-relaxed text-center'>Rated 4.9 out of 5 from 9.614 <br /> customer review</p>
-                     <div className=' flex items-center gap-2 '>
+                     <div className=' flex items-center gap-2 md:pb-12 '>
                            <Star className=' fill-[#04B77C] w-12 h-12 stroke-[#04B77C]'/>
                            <p className=' font-bold text-4xl font-[poppins]'>TrustPilot</p>
                      </div>
