@@ -2,7 +2,6 @@
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 import Body from "./Body/Body"
-import PreviousNextMethods from "./demo"
 import Header from "./Header/Header"
 
 
@@ -12,7 +11,6 @@ const AboutRoute = () => {
         <Navbar/>
         <Header/>
         <Body/>
-        {/* <PreviousNextMethods/> */}
         <Footer/>
     </div>
   )

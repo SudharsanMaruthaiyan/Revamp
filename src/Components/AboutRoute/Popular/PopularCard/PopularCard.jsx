@@ -3,13 +3,13 @@ import React from 'react'
 
 const PopularCard = ({img,float,price,review,head,lesson,student,pimg,name,enroll}) => {
   return (
-    <div className=' bg-white rounded-2xl w-fit overflow-hidden group mx-3' id='shadow'>
+    <div className=' bg-white rounded-2xl w-fit hover:drop-shadow-2xl overflow-hidden group mx-3 transition-all' id='shadow'>
         <div className=' rounded-2xl relative inline-block overflow-hidden'>
             <img className=' rounded-2xl hover:scale-105 transition-all duration-500 object-cover"' src={img} alt="" />
             <p className=' absolute top-5 left-5 text-white py-1 px-3 rounded-full bg-[#3E3A33]'>{float}</p>
             <p className=' absolute right-5 bottom-5 bg-red-800 text-white font-[poppins] text-base md:text-xl px-3 py-1 rounded-full'>{price}</p>
         </div>
-        <div className=' p-5'>
+        <div className=' p-5 transition-all overflow-hidden duration-500'>
             <div className=' flex items-center gap-2'>
                 <div className=' flex items-center gap-1'> 
                     <Star className=' w-4 fill-[#3E3A33] stroke-[#3E3A33]'/>
