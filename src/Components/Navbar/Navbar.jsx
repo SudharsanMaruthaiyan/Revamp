@@ -65,7 +65,7 @@ const Navbar = () => {
                       <Link to={"/course"}> <a className="font-[poppins] font-medium text-lg">Course</a></Link>
                     </li>
                     <li>
-                      <a href="#schedule" className=" font-[poppins] font-medium text-lg">About us</a>
+                      <Link to={"/about"}><a href="#schedule" className=" font-[poppins] font-medium text-lg">About us</a></Link>
                     </li>
                     <li>
                       <Link to={"/gallery"}>
