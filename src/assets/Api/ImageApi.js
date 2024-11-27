@@ -139,3 +139,9 @@ export const aboutsection1 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-po
 export const aboutsection2 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-popular-3.png?updatedAt=1732689392242";
 
 export const aboutcertifcate = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-banner-user.png?updatedAt=1732691096767"
+
+export const iphone = "https://ik.imagekit.io/jjyo3gsee/RevampImg/iPhone.png?updatedAt=1732717316214"
+export const macbook = "https://ik.imagekit.io/jjyo3gsee/RevampImg/MacBookPro.png?updatedAt=1732717316148"
+
+export const appstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/App-Store.png?updatedAt=1732718595881"
+export const playstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/Google-Play.png?updatedAt=1732718596016"
