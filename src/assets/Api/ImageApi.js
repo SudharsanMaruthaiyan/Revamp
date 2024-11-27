@@ -133,3 +133,9 @@ export const linked_in = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/linkedin_
 export const gallery = "https://ik.imagekit.io/jjyo3gsee/Gallery.png?updatedAt=1732129803846";
 export const gallery1 = "https://ik.imagekit.io/jjyo3gsee/Gallery1.png?updatedAt=1732130295207"
 export const gallery2 = "https://ik.imagekit.io/jjyo3gsee/Gallery2.png?updatedAt=1732130295295"
+
+//About Section 
+export const aboutsection1 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-popular-4.png?updatedAt=1732689392554";
+export const aboutsection2 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-popular-3.png?updatedAt=1732689392242";
+
+export const aboutcertifcate = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-banner-user.png?updatedAt=1732691096767"
