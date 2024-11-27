@@ -6,7 +6,7 @@ const CertificateSection = () => {
   return (
     <>
     <div className='max-w-[100%]'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 w-[80%] mx-auto py-[40px] gap-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 w-[90%] lg:w-[80%] mx-auto py-[40px] gap-10'>
             <div className='grid grid-cols-1 lg:grid-cols-3 bg-[url(https://ik.imagekit.io/HoneyJoe/Revamp%20web/h4-banner-path-1.png?updatedAt=1732691096816)] bg-[#7659FF] p-10 rounded-lg'>
                 <div className='col-span-2 flex flex-col gap-5'>
                     <div className='flex justify-start'>
@@ -44,13 +44,13 @@ const CertificateSection = () => {
                 </div>
 
                 <div className='flex flex-wrap gap-3 items-center justify-center'>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>Information System</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>Human Resources</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>Bussiness Management</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>Health Care</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>English Language</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>German Language</button>
-                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041]'>Sales</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>Information System</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>Human Resources</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>Bussiness Management</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>Health Care</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>English Language</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>German Language</button>
+                    <button className='font-[Poppins] text-white px-5 py-2 font-bold rounded-full hover:text-[#7659ff] hover:bg-white bg-[#7E3041] text-[14px] lg:text-[16px]'>Sales</button>
                     
 
                 </div>
