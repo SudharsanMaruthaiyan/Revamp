@@ -33,7 +33,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link> <a className="font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">Blog</a>
+                <Link to={"/blog"}> <a className="font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">Blog</a>
                 </Link>
               </li>
               <li>

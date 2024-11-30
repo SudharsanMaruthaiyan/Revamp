@@ -8,6 +8,8 @@ import Courseroute from "./Components/Courseroute/Courseroute";
 import Footer from "./Components/Footer/Footer";
 import GalleryRoute from "./Components/GalleryRoute/GalleryRoute";
 import AboutRoute from "./Components/AboutRoute/AboutRoute";
+import Blogroute from "./Components/BlogRoute/BlogRoute";
+import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 
 const Applayout  = ()=>{
   return(
@@ -35,6 +37,16 @@ const appRouter = createBrowserRouter([
     path:"/about",
     element:<AboutRoute />
   },
+  {
+    path:"/Blog",
+    element:<Blogroute></Blogroute>
+  },
+  {
+    path:"/blogdetails",
+    element:<BlogDetails></BlogDetails>
+  },
+
+  
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}></RouterProvider>)
