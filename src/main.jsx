@@ -10,6 +10,7 @@ import GalleryRoute from "./Components/GalleryRoute/GalleryRoute";
 import AboutRoute from "./Components/AboutRoute/AboutRoute";
 import Blogroute from "./Components/BlogRoute/BlogRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
+import ContactRoute from "./Components/ContactRoute/ContactRoute";
 
 const Applayout  = ()=>{
   return(
@@ -45,6 +46,10 @@ const appRouter = createBrowserRouter([
     path:"/blogdetails",
     element:<BlogDetails></BlogDetails>
   },
+  {
+    path:"/contact",
+    element:<ContactRoute></ContactRoute>
+  }
 
   
 ])

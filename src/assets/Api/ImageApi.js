@@ -145,3 +145,13 @@ export const macbook = "https://ik.imagekit.io/jjyo3gsee/RevampImg/MacBookPro.pn
 
 export const appstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/App-Store.png?updatedAt=1732718595881"
 export const playstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/Google-Play.png?updatedAt=1732718596016"
+
+//blog headers
+export const blogheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040281.png?updatedAt=1733062126016";
+export const blogheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040287.png?updatedAt=1733062125666";
+export const blogheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040284.png?updatedAt=1733062125872";
+
+//contact headers
+export const contactheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040280.png?updatedAt=1733062474984";
+export const contactheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040286.png?updatedAt=1733062474869";
+export const contactheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040283.png?updatedAt=1733062475169";

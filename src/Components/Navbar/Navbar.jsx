@@ -37,7 +37,10 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
+                <Link to={"/contact"}>
+                
                 <a href="#venue" className=" font-[poppins] text-nowrap font-medium text-lg hover:text-white hover:bg-[#FF9F00] transition-colors py-2 px-3 rounded-full">Contact</a>
+                </Link>
               </li>
               <li className="">
                 <button className=" font-[poppins] bg-[#FF9F00] py-2 px-4 rounded-md  text-white font-medium text-lg">Login</button>
