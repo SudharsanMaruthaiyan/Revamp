@@ -147,14 +147,21 @@ export const appstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/App-Store.pn
 export const playstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/Google-Play.png?updatedAt=1732718596016"
 
 //blog headers
-export const blogheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040281.png?updatedAt=1733062126016";
-export const blogheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040287.png?updatedAt=1733062125666";
-export const blogheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040284.png?updatedAt=1733062125872";
+export const blogheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040281.png?updatedAt=1733144118867";
+export const blogheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040287.png?updatedAt=1733144117925";
+export const blogheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040284.png?updatedAt=1733144118818";
 
 //contact headers
-export const contactheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040280.png?updatedAt=1733062474984";
-export const contactheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040286.png?updatedAt=1733062474869";
-export const contactheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040283.png?updatedAt=1733062475169";
+export const contactheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040280.png?updatedAt=1733144118450";
+export const contactheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040286.png?updatedAt=1733144118062";
+export const contactheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040283.png?updatedAt=1733144118158";
+
+//course headers
+export const coursemainheader  ="https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040288.png?updatedAt=1733144122144";
+export const coursemainheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040289.png?updatedAt=1733144121967"
+export const coursemainheadermob = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040290.png?updatedAt=1733144121313";
+
+
 
 // about Banner 
 export const abanner1="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner.png?updatedAt=1733120495434"

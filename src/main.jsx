@@ -11,7 +11,7 @@ import AboutRoute from "./Components/AboutRoute/AboutRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
 import Blogroute from "./Components/Blogroute/Blogroute";
-import FindCourseRoute from "./Components/FindCourse/FindCourseRoute";
+import FindCourseRoute from "./Components/Courseroute/FindCourse/FindCourseRoute";
 
 const Applayout  = ()=>{
   return(
