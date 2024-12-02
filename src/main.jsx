@@ -8,9 +8,9 @@ import Courseroute from "./Components/Courseroute/Courseroute";
 import Footer from "./Components/Footer/Footer";
 import GalleryRoute from "./Components/GalleryRoute/GalleryRoute";
 import AboutRoute from "./Components/AboutRoute/AboutRoute";
-import Blogroute from "./Components/BlogRoute/BlogRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
+import Blogroute from "./Components/Blogroute/Blogroute";
 
 const Applayout  = ()=>{
   return(
@@ -39,7 +39,7 @@ const appRouter = createBrowserRouter([
     element:<AboutRoute />
   },
   {
-    path:"/Blog",
+    path:"/blog",
     element:<Blogroute></Blogroute>
   },
   {
