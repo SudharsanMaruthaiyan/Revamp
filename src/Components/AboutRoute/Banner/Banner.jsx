@@ -1,5 +1,5 @@
 import React from 'react'
-import { appstore, iphone, macbook, playstore } from '../../../assets/Api/ImageApi'
+import { appstore, iphone, lapPhone, macbook, playstore } from '../../../assets/Api/ImageApi'
 
 const Banner = () => {
   return (
@@ -7,7 +7,7 @@ const Banner = () => {
 //   <!-- Your content here -->
 // </div>
     <>
-        <div className='max-w-[100%] mx-auto bg-[url("")] py-20 border-none bg-cover' style={{ backgroundImage: "url('https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040321.png?updatedAt=1733137253715')" }}>
+        <div className='max-w-[100%] mx-auto bg-[url("")] py-36 border-none bg-cover' style={{ backgroundImage: "url('https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040321.png?updatedAt=1733137253715')" }}>
             <div className=' w-[80%] mx-auto'>
                 <div className=' flex md:items-start lg:items-center gap-5 flex-wrap md:flex-nowrap'>
 
@@ -58,10 +58,7 @@ const Banner = () => {
 
                     {/* right side  */}
                     <div className=' w-full md:w-1/2 '>
-                        <div className=' relative'>
-                            <img src={macbook} alt="" />
-                            <img src={iphone} alt="" className=' h-[200px] md:h-[300px] absolute md:top-28 md:left-20 top-8 left-10' />
-                        </div>
+                        <img src={lapPhone} alt="" />
                     </div>
 
                 </div>
