@@ -20,8 +20,8 @@ const Body = () => {
         <FeatureCourse3/>
         <Banner/>
         <Faq/>
-        {/* <StudentReview/>
-        <Popular/>
+        <StudentReview/>
+        {/* <Popular/>
         <CertificateSection/> */}
     </div>
   )
