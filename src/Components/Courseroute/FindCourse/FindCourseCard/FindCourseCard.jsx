@@ -1,5 +1,5 @@
 import { Folders,UserRound,History, Heart, Star, ArrowRight,Share } from "lucide-react"
-import { les, prj, stu, suganth, timer } from "../../../assets/Api/ImageApi"
+import { les, prj, stu, suganth, timer } from "../../../../assets/Api/ImageApi"
 
 const FindCourseCard = ({float,name,lesson,price,cart,rating,student,profile,image,domain,title,project,hourse,mark}) => {
   return (

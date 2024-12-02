@@ -1,21 +1,21 @@
 import React from 'react'
 import FindCourseCard from './FindCourseCard/FindCourseCard'
-import { FindCourseCardApi } from '../../assets/Api/FindCourseCardApi'
 import { Link } from 'react-router-dom'
+import { FindCourseCardApi } from '../../../assets/Api/FindCourseCardApi'
 
 const FindCourse = () => {
   return (
     <>
         <div className=' max-w-[100%] mx-auto'>
-            <div className=' w-[80%] mx-auto py-10'>
-                <div className=' flex items-end justify-between'>
-                    <div className=' flex flex-col items-start justify-center pt-20 mb-10'>
-                        <div className=' flex'>
+            <div className='w-[100%] mx-auto'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 items-end'>
+                    <div className=' flex flex-col items-start justify-center pt-20 mb-10 gap-3'>
+                        <div className=' flex gap-2'>
                             <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Find Courses</h1>
                         </div>
                         <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Best Solutions For Life <span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/> Coach Solutions</span></h1>
                     </div>
-                    <div>
+                    <div className='flex justify-end items-center'>
                         <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
                     </div>
 
