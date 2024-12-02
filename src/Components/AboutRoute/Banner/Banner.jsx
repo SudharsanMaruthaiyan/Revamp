@@ -3,10 +3,13 @@ import { appstore, iphone, macbook, playstore } from '../../../assets/Api/ImageA
 
 const Banner = () => {
   return (
+//     <div class="bg-image bg-cover h-screen" >
+//   <!-- Your content here -->
+// </div>
     <>
-        <div className='max-w-[100%] mx-auto bg-[#2f045a] py-20'>
+        <div className='max-w-[100%] mx-auto bg-[url("")] py-20 border-none bg-cover' style={{ backgroundImage: "url('https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040321.png?updatedAt=1733137253715')" }}>
             <div className=' w-[80%] mx-auto'>
-                <div className=' flex md:items-start lg:items-center gap-5 flex-wrap md:flex-nowrap '>
+                <div className=' flex md:items-start lg:items-center gap-5 flex-wrap md:flex-nowrap'>
 
                     {/* left side  */}
                     <div className='w-full md:w-1/2 justify-center md:flex-col md:items-start'>

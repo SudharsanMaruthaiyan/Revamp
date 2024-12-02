@@ -72,7 +72,7 @@ const StudentReview = () => {
     };
 
   return (
-    <div className=' max-w-[100%] mx-auto bg-gradient-to-t from-[#FFFFFF] to-[#FFF1DB] py-12 rounded-[50px]'>
+    <div className=' max-w-[100%] mx-auto py-12 rounded-[50px]'>
         <div className=' w-[80%] mx-auto overflow- mb-10'>
             <div className=' flex flex-col justify-center items-center'>
                 <h1 className=' font-semibold text-4xl font-[poppins] pt-10'>What our students say</h1>
@@ -80,7 +80,7 @@ const StudentReview = () => {
             </div>
             <div className=' grid md:grid-cols-4 lg:grid-cols-6 grid-cols-1'>
                 {/* left side  */}
-                <div className='col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-2 bg-[#7932FD] flex flex-col items-center rounded-2xl py-10 px-10'>
+                <div className='col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-2 bg-[url("https://ik.imagekit.io/jjyo3gsee/RevampImg/sliderbg.png?updatedAt=1733124826400")] flex flex-col items-center rounded-2xl py-10 px-10 bg-cover'>
                      <div className="flex flex-col py-3 px-4 rounded-lg border" id="shadow">
                                     <p className=" font-[poppins] font-bold text-lg flex items-center"> <span className=" text-[#3686F7] font-[poppins]">G</span>  <span className=" text-[#FF302F] font-[poppins]">o</span>  <span className=" text-[#FFBA40] font-[poppins]">o</span>  <span className=" text-[#3686F7] font-[poppins]">g</span> <span className=" text-[#20B15A]">l</span> <span className=" text-[#FF302F]">e</span> <span className=" text-[#3686F7] font-[poppins] pl-1"> R</span>  <span className=" text-[#FF302F] font-[poppins]">e</span>  <span className=" text-[#FFBA40] font-[poppins]">v</span>  <span className=" text-[#3686F7] font-[poppins]">i</span>  <span className=" text-[#20B15A] font-[poppins]">e</span>  <span className=" text-[#FF302F] font-[poppins]">w</span> <span className=" text-[#FFBA40]">s</span></p>
                                     <div className=" flex items-center gap-2 pt-1">
