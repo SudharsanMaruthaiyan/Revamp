@@ -7,7 +7,7 @@ const FindCourse = () => {
   return (
     <>
         <div className=' max-w-[100%] mx-auto'>
-            <div className=' w-[80%] mx-auto'>
+            <div className=' w-[80%] mx-auto py-10'>
                 <div className=' flex items-end justify-between'>
                     <div className=' flex flex-col items-start justify-center pt-20 mb-10'>
                         <div className=' flex'>
@@ -24,7 +24,7 @@ const FindCourse = () => {
                     {
                         FindCourseCardApi.map((e,index)=>(
                             <>
-                                <Link to={"/course"}> 
+                                <Link to={"/coursedetails"}> 
                                     <div key={index}>
                                         <FindCourseCard float={e.float} name={e.name} rating={e.rating} profile={e.profile} student={e.student} lesson={e.lesson} price={e.price} cart={e.cart} image={e.image} domain={e.domain} title={e.title} project={e.project} hourse={e.hourse} mark={e.mark}/>
                                     </div>

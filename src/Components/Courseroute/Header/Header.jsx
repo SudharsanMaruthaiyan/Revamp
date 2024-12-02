@@ -4,8 +4,8 @@ import { courseheader,coursedhead745,coursedheadmob } from "../../../assets/Api/
 const Header = () => {
   return (
     <>
-      <div className="max-w-[100%] pt-32">
-        <div className="w-[80%] mx-auto grid grid-cols-1">
+      <div className="max-w-[100%] pt-16">
+        <div className="w-[100%] mx-auto grid grid-cols-1">
           <img src={coursedhead745} alt="" className="hidden md:block xl:hidden" />
           <img src={courseheader} alt="" className="hidden xl:block" />
           <img src={coursedheadmob} alt="" className=" md:hidden xl:hidden" />

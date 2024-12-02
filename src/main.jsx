@@ -11,6 +11,7 @@ import AboutRoute from "./Components/AboutRoute/AboutRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
 import Blogroute from "./Components/Blogroute/Blogroute";
+import FindCourseRoute from "./Components/FindCourse/FindCourseRoute";
 
 const Applayout  = ()=>{
   return(
@@ -28,7 +29,11 @@ const appRouter = createBrowserRouter([
   },
   {
     path:"/course",
-    element:<Courseroute/>
+    element:<FindCourseRoute></FindCourseRoute>
+  },
+  {
+    path:"coursedetails",
+    element:<Courseroute></Courseroute>
   },
   {
     path:"/gallery",
