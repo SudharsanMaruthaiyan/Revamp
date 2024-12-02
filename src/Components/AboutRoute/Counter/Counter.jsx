@@ -30,9 +30,9 @@ const Counter = () => {
     <>
         <div className="w-[80%] lg:w-[80%] mx-auto py-[20px] lg:py-[40px]">
             <div className=" flex justify-center items-center gap-12 pb-20 lg:pb-28">
-                <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>
-                <h1 className=" font-[poppins] text-xl lg:text-2xl font-bold text-center uppercase">Trusted by <span className=" text-[#014BAE]">Companies</span> Achievements</h1>
-                <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>
+                <span className=" w-20 h-[3px] bg-[#FF8C05] lg:block hidden"></span>
+                <h1 className=" font-[poppins] text-xl lg:text-2xl font-bold text-center uppercase">Trusted by <span className=" text-[#FF8C05]">Companies</span> Achievements</h1>
+                <span className=" w-20 h-[3px] bg-[#FF8C05] lg:block hidden"></span>
             </div>
             <div>
                 <CounterCard data={data}/>

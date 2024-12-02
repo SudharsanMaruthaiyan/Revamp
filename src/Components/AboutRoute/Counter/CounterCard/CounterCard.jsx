@@ -39,7 +39,7 @@ const CounterCard = ({data}) => {
                         <img
                             src={item.imageUrl}
                             alt={item.label}
-                            className=" rounded-full bg-[#014BAE] p-4 w-16 h-16 stroke-[#1A68F9] text-[#1A68F9]"
+                            className=" rounded-full bg-[#FF8C05] p-4 w-16 h-16 stroke-[#FF8C05] text-[#FF8C05]"
                         />
                     </div>
                     <div className="flex flex-col items-center">

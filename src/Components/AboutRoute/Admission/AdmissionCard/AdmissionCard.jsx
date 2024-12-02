@@ -11,7 +11,7 @@ const AdmissionCard = ({icon,title,ctn,readmore}) => {
                     <h1 className=" font-[poppins] font-bold lg:text-lg text-base text-[#241442] py-3">{title}</h1>
                     <p className=" font-[poppins] text-wrap text-slate-700">{ctn}</p>
                     <div  className=" pt-4">
-                        <button className=" font-[poppins] hover:text-white hover:bg-[#5B3AEE] bg-white border border-[#5B3AEE] px-4 py-2 font-bold text-base rounded-full text-[#5B3AEE] transition-colors">{readmore}</button>
+                        <button className=" font-[poppins] hover:text-white hover:bg-[#FF8C05] bg-white border border-[#FF8C05] px-4 py-2 font-bold text-base rounded-full text-[#FF8C05] transition-colors">{readmore}</button>
                     </div>
                 </div>
             </div>
