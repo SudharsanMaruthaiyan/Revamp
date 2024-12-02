@@ -19,8 +19,8 @@ const Body = () => {
         <Admission/>
         <FeatureCourse3/>
         <Banner/>
-        <Faq/>
         <StudentReview/>
+        <Faq/>
         {/* <Popular/>
         <CertificateSection/> */}
     </div>

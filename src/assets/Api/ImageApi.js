@@ -161,3 +161,4 @@ export const abanner1="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner.pn
 export const abanner2="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner420.png?updatedAt=1733120495353"
 
 export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/amico.png?updatedAt=1724493428593";
+export const bgr= "https://ik.imagekit.io/jjyo3gsee/RevampImg/sliderbg.png?updatedAt=1733124826400"
