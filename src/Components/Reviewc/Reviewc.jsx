@@ -38,7 +38,14 @@ const Reviewc = () => {
                             <Cuboid className=" fill-[#FF5722] stroke-white  w-8 h-8"/>
                         </div>
                         <div>
-                            <h1 className="  font-[poppins] font-bold text-slate-800 lg:text-lg text-base text-wrap">Best Online <br /> Tutoring</h1>
+                            <h1 className="text-center font-[poppins] font-bold text-slate-800 md:text-xl lg:text-2xl text-lg text-wrap">
+                            <CountUp 
+                                end={200}
+                                duration={2.5}
+                                separator=","
+                            /> +  <br /> 
+                            <p className=" text-base">Courses Students</p>
+                            </h1>
                         </div>
                     </div>
                     <div className=" flex items-center gap-4">
@@ -46,8 +53,14 @@ const Reviewc = () => {
                             <Cuboid className=" fill-[#906AD4] stroke-white  w-8 h-8"/>
                         </div>
                         <div>
-                            <h1 className="  font-[poppins] font-bold text-slate-800 lg:text-lg text-base text-wrap">
-                            Fully Lifetime<br /> Access</h1>
+                            <h1 className="text-center font-[poppins] font-bold text-slate-800 md:text-xl lg:text-2xl text-lg text-wrap">
+                            <CountUp 
+                                end={200}
+                                duration={2.5}
+                                separator=","
+                            /> +  <br /> 
+                            <p className=" text-base">Courses Students</p>
+                            </h1>
                         </div>
                     </div>
                     <div className=" flex items-center gap-4">

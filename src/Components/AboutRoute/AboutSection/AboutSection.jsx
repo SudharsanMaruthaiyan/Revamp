@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <>
     <div className='max-w-[100%]'>
-        <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10  pb-[40px]'>
+        <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10  pb-[40px] pt-[90px]'>
             <div className='flex gap-5 w-full lg:col-span-3'>
                 <div  className=' -translate-y-10'>
                     <img src={aboutsection2} alt="" className='rounded-lg' />

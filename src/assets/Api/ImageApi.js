@@ -155,3 +155,9 @@ export const blogheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame
 export const contactheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040280.png?updatedAt=1733062474984";
 export const contactheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040286.png?updatedAt=1733062474869";
 export const contactheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040283.png?updatedAt=1733062475169";
+
+// about Banner 
+export const abanner1="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner.png?updatedAt=1733120495434"
+export const abanner2="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner420.png?updatedAt=1733120495353"
+
+export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/amico.png?updatedAt=1724493428593";
