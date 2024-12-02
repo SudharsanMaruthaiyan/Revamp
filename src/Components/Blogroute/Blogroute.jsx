@@ -7,10 +7,10 @@ import Header from "./Header/Header"
 const Blogroute = () => {
   return (
     <>  
-      <Navbar/>
+      <Navbar></Navbar>
       <Header></Header>
       <Blogtab></Blogtab>
-      <Footer/>
+      <Footer></Footer>
     </>
   )
 }
