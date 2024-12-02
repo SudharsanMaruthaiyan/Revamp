@@ -17,7 +17,7 @@ const AboutSection = () => {
             </div>
             <div className='flex flex-col justify-between gap-3 lg:col-span-2'>
                 <div className='flex'>
-                    <p className='flex  text-[#7659ff] text-[14px] px-3 font-[Poppins] py-1 justify-center rounded-full bg-gradient-to-tr from-[#F3F3FD] to-[#C7C7FF]'><Dot></Dot> INTERACTIVE AND SOCIAL</p>
+                    <p className='flex  text-[#FF8C05] text-[14px] px-3 font-[Poppins] py-1 justify-center rounded-full bg-gradient-to-tr from-[#F3F3FD] to-[#ff8a056a]'><Dot></Dot> INTERACTIVE AND SOCIAL</p>
                 </div>
                 <div>
                     <p className='font-[Poppins] text-[24px] lg:text-[32px] font-bold'>Engage your learners and improve learning outcomes</p>
@@ -52,7 +52,7 @@ const AboutSection = () => {
                     </div>
                 </div>
                 <div>
-                    <button className='flex gap-5 px-5 py-2 rounded-full bg-[#7659FF] items-center text-white font-bold font-[Poppins]'>Explore Courses <div className='bg-white p-3 rounded-full'><ArrowRight color='#7659FF'></ArrowRight></div></button>
+                    <button className='flex gap-5 px-5 py-2 rounded-full bg-[#FF8C05] items-center text-white font-bold font-[Poppins]'>Explore Courses <div className='bg-white p-3 rounded-full'><ArrowRight color='#FF8C05'></ArrowRight></div></button>
                 </div>
             </div>
         </div>

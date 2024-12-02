@@ -7,9 +7,9 @@ const FaqAccodion = ({title , desc , open, toggle}) => {
     // shadow-blue-800 rounded-md
     <>
         <div className="my-5 bg-[#FFFFFF] shadow-lg accodion rounded-md rounded-t-md "> 
-            <button onClick={toggle} className={`flex  focus:outline-none focus:ring focus:ring-[#BAD3F6] w-full justify-between items-center px-3 rounded-md ${open? 'shadow-blue-800 rounded-md focus:ring-0 transition' :''}`}>
-                <span className={`py-5 font-[poppins] font-bold text-start ${open ? ' text-[#1176F0]' : ''}`}>{title}</span> 
-                <div className={`${open ? ' text-[#1176F0]' : ''}`}>
+            <button onClick={toggle} className={`flex  focus:outline-none focus:ring focus:ring-[#FF8C05] w-full justify-between items-center px-3 rounded-md ${open? 'shadow-blue-800 rounded-md focus:ring-0 transition' :''}`}>
+                <span className={`py-5 font-[poppins] font-bold text-start ${open ? ' text-[#FF8C05]' : ''}`}>{title}</span> 
+                <div className={`${open ? ' text-[#FF8C05]' : ''}`}>
                     {
                         open ?  <Minus /> : <Plus /> 
                     }

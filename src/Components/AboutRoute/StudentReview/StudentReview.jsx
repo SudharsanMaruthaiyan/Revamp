@@ -86,11 +86,11 @@ const StudentReview = () => {
                                     <div className=" flex items-center gap-2 pt-1">
                                           <p className=" font-[poppins]">4.8</p>
                                           <div className=" flex items-center gap-1">
-                                             <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                             <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                             <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                             <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
-                                             <Star className=" w-4 stroke-[#ED9700] fill-[#ED9700]"/>
+                                             <Star className=" w-4 stroke-white fill-[#ED9700]"/>
+                                             <Star className=" w-4 stroke-white fill-[#ED9700]"/>
+                                             <Star className=" w-4 stroke-white fill-[#ED9700]"/>
+                                             <Star className=" w-4 stroke-white fill-[#ED9700]"/>
+                                             <Star className=" w-4 stroke-white fill-[#ED9700]"/>
                                           </div>
                                           <p className=" font-[poppins]">(246)</p>
                                     </div>
@@ -104,10 +104,10 @@ const StudentReview = () => {
                            <Star className=' stroke-white fill-white w-5'/>
                      </div>
                      <p className=' py-4 leading-relaxed text-center'>Rated 4.9 out of 5 from 9.614 <br /> customer review</p>
-                     <div className=' flex items-center gap-2'>
+                     {/* <div className=' flex items-center gap-2'>
                            <Star className=' fill-[#04B77C] w-12 h-12 stroke-[#04B77C]'/>
                            <p className=' font-bold text-4xl font-[poppins]'>TrustPilot</p>
-                     </div>
+                     </div> */}
                      <div className="flex gap-3 pt-6">
                         <button className="button bg-white p-3 rounded-full" onClick={previous}>
                            <ArrowLeft className=' stroke-neutral-800'/>
