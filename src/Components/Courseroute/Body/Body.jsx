@@ -1,7 +1,7 @@
 import YoutubeVid from "../YoutubeVid/YoutubeVid";
 import Navtab from "../Navtab/Navtab";
 import Righttab from "../Righttab/Righttab";
-import FindCourse from "../FindCourse/FindCourse";
+import FindCourse from "../../FindCourseCard/FindCourse";
 
 
 const Body = () => {
