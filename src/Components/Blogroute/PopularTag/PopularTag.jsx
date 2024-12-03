@@ -1,3 +1,4 @@
+import { blogimage1 } from "../../../assets/Api/ImageApi"
 
 const PopularTag = () => {
   return (
@@ -20,6 +21,9 @@ const PopularTag = () => {
                     <p className=" text-[#000] bg-[#FF9F009b] px-3 py-2 text-[15px] rounded-md hover:text-white hover:bg-[#FF9F00] transition-colors">Video</p>
                 </div>
                 
+            </div>
+            <div>
+                <img src={blogimage1} alt=""  className="shadow-lg"/>
             </div>
         </div>
     </>

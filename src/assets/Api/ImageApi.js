@@ -150,6 +150,9 @@ export const playstore = "https://ik.imagekit.io/jjyo3gsee/RevampImg/Google-Play
 export const blogheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040281.png?updatedAt=1733144118867";
 export const blogheadermob  = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040287.png?updatedAt=1733144117925";
 export const blogheadertab = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040284.png?updatedAt=1733144118818";
+//blog images
+export const blogimage1 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Detailed%20Poster.png?updatedAt=1733235515928"
+export const blogimage2 = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Detailed%20JAVA%20Poster.png?updatedAt=1733235514823";
 
 //contact headers
 export const contactheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040280.png?updatedAt=1733144118450";
@@ -178,3 +181,7 @@ export const logo2 ="https://ik.imagekit.io/jjyo3gsee/logo2.png?updatedAt=173315
 export const logo3 ="https://ik.imagekit.io/jjyo3gsee/logo3.png?updatedAt=1733159487020"
 export const logo4 ="https://ik.imagekit.io/jjyo3gsee/logo4.png?updatedAt=1733159486853"
 export const qutoes ="https://ik.imagekit.io/jjyo3gsee/qutes.png?updatedAt=1733160495278"
+
+//instagram post 
+
+export const instalogo = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/skill-icons_instagram.png?updatedAt=1733234295901"; 

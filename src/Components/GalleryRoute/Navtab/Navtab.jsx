@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import LinkedInSection from "../LinkedInSection/LinkedInSection";
 import ProjectSection from "../ProjectSection/ProjectSection";
+import InstagramSection from "../InstagramSection/InstagramSection";
 
 
 
@@ -145,7 +146,7 @@ function Navtab() {
             <ProjectSection></ProjectSection>
             </TabPanel>
             <TabPanel value={3}>
-            <LinkedInSection></LinkedInSection>
+            <InstagramSection></InstagramSection>
             </TabPanel>
             <TabPanel value={4}>
             <LinkedInSection></LinkedInSection>
