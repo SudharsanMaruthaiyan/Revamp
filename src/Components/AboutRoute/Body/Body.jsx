@@ -14,7 +14,7 @@ const Body = () => {
   return (
     <div>
         <Header/>
-        <Counter/>
+        {/* <Counter/> */}
         <AboutSection/>
         <Admission/>
         <FeatureCourse3/>

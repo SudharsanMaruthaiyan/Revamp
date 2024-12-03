@@ -169,3 +169,12 @@ export const abanner2="https://ik.imagekit.io/jjyo3gsee/RevampImg/aboutBanner420
 
 export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/amico.png?updatedAt=1724493428593";
 export const bgr= "https://ik.imagekit.io/jjyo3gsee/RevampImg/sliderbg.png?updatedAt=1733124826400"
+
+export const lapPhone="https://ik.imagekit.io/jjyo3gsee/RevampImg/Group12.png?updatedAt=1733158422323"
+
+export const arrow1 ="https://ik.imagekit.io/jjyo3gsee/Arrow%201.png?updatedAt=1733158682443"
+export const logo1 ="https://ik.imagekit.io/jjyo3gsee/logo1.png?updatedAt=1733159124561"
+export const logo2 ="https://ik.imagekit.io/jjyo3gsee/logo2.png?updatedAt=1733159124593"
+export const logo3 ="https://ik.imagekit.io/jjyo3gsee/logo3.png?updatedAt=1733159487020"
+export const logo4 ="https://ik.imagekit.io/jjyo3gsee/logo4.png?updatedAt=1733159486853"
+export const qutoes ="https://ik.imagekit.io/jjyo3gsee/qutes.png?updatedAt=1733160495278"
