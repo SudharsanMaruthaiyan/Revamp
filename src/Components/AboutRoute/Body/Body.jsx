@@ -9,6 +9,7 @@ import Banner from '../Banner/Banner'
 import FeatureCourse3 from '../FeatureCourse3/FeatureCourse3'
 import Admission from '../Admission/Admission'
 import Faq from '../Faq/Faq'
+import Herosection from '../Herosection/Herosection'
 
 const Body = () => {
   return (
@@ -16,6 +17,7 @@ const Body = () => {
         <Header/>
         {/* <Counter/> */}
         <AboutSection/>
+        <Herosection/>
         <Admission/>
         <FeatureCourse3/>
         <Banner/>

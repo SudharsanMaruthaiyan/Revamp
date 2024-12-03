@@ -2,8 +2,8 @@
 const AdmissionCard = ({icon,title,ctn,readmore}) => {
   return (
     <>
-        <div className=" flex  justify-center">
-            <div className=" bg-white shadow-2xl border w-fit p-5 rounded-2xl">
+        <div className=" flex  justify-center" >
+            <div className=" bg-white shadow-2xl border w-fit p-5 rounded-2xl" id="shadow">
                 <div className=" text-center flex  justify-center">
                     <img src={icon} alt="Admission_icon" className=" text-center"/>
                 </div>
