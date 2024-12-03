@@ -26,7 +26,6 @@ const Blog2card = (props) => {
             <button className="font-[Poppins] text-[16px] flex gap-2 items-center">Read More <ArrowRight></ArrowRight></button>
           </div>
         </div>
-
       </div>
     
     

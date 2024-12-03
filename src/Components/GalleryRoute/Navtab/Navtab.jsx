@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import LinkedInSection from "../LinkedInSection/LinkedInSection";
+import ProjectSection from "../ProjectSection/ProjectSection";
 
 
 
@@ -92,30 +93,11 @@ function Navtab() {
                       <button className="">STUDENTS PROJECT</button>
                     </Tab>
                   </div>
-                  <div>
-                    <Tab
-                      value={3}
-                      slotProps={{
-                        root: ({ selected, disabled }) => ({
-                          className: `font-[Poppins]   ${
-                            selected
-                              ? " bg-[#FF9F00] text-white rounded-lg  "
-                              : "text-black"
-                          } ${
-                            disabled
-                              ? "cursor-not-allowed opacity-50"
-                              : "cursor-pointer"
-                          } text-[14px] lg:text-[16px]   font-medium w-full px-1 py-2  flex justify-center focus:outline-0`,
-                        }),
-                      }}
-                    >
-                      <button className="">FEATURED POST</button>
-                    </Tab>
-                  </div>
+                  
 
                   <div>
                     <Tab
-                      value={4}
+                      value={3}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
@@ -135,7 +117,7 @@ function Navtab() {
                   </div>
                   <div>
                     <Tab
-                      value={5}
+                      value={4}
                       slotProps={{
                         root: ({ selected, disabled }) => ({
                           className: `font-[Poppins]  ${
@@ -160,15 +142,12 @@ function Navtab() {
               <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={2}>
-            <LinkedInSection></LinkedInSection>
+            <ProjectSection></ProjectSection>
             </TabPanel>
             <TabPanel value={3}>
             <LinkedInSection></LinkedInSection>
             </TabPanel>
             <TabPanel value={4}>
-            <LinkedInSection></LinkedInSection>
-            </TabPanel>
-            <TabPanel value={5}>
             <LinkedInSection></LinkedInSection>
             </TabPanel>
           </Tabs>
