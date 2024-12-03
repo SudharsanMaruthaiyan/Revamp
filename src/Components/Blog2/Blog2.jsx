@@ -7,12 +7,12 @@ const Blog2 = () => {
     <>
       <div className="max-w-[100%]">
         <div className="lg:w-[80%] w-[90%] mx-auto grid grid-cols-1 pb-20">
-          <div className="flex justify-center flex-col items-center gap-3 py-5 w-[60%] mx-auto">
+          <div className="flex justify-center flex-col items-center gap-3 py-5 w-[80%] md:w-[60%] mx-auto">
             <div>
               <p className="font-[Poppins] text-[#FF9F00]">Articles</p>
             </div>
             <div>
-              <h1 className="lg:text-[48px] text-[24px] font-[Poppins] font-bold">Our Blog Updates</h1>
+              <h1 className="lg:text-[48px] text-[24px] font-[Poppins] font-bold text-center">Our Blog Updates</h1>
             </div>
             <div>
               <p className="text-center text-[16px] font-[Poppins]">Seuris finibus eleifend ante quis scelerisque. Nunc rutrum eget dui quis pulvinar. Curabitur et tincidunt lectus, gravida elementum ligula</p>
