@@ -9,9 +9,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isShown, setIsShown] = useState(false);
   return (
+    // z-10 w-[100%] mx-auto px-10 md:px-[80px] lg:px-24 xl:px-[150px] 3xl:px-[250px] 
     <>
-      <div className=" max-w-[100%] mx-auto">
-        <div className=" z-10 w-[100%] mx-auto px-10 md:px-[80px] lg:px-24 xl:px-[150px] 3xl:px-[250px] grid grid-cols-2 lg:grid-cols-2 py-4 lg:py-1 border items-center bg-white fixed top-0 rounded-md" id="nav-shadow">
+      <div className="z-10 max-w-[100%] mx-auto fixed w-full top-0 bg-white border" id="nav-shadow">
+        <div className="grid grid-cols-2 lg:grid-cols-2 py-4 lg:py-1 items-center w-[80%] mx-auto  rounded-md" id="nav-">
           <div>
             <img src={logo} alt="Logo" className=" w-[120px]"/>
           </div>
