@@ -9,55 +9,34 @@ const Banner = () => {
     <>
         <div className='max-w-[100%] mx-auto bg-[url("")] py-36 border-none bg-cover' style={{ backgroundImage: "url('https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040321.png?updatedAt=1733137253715')" }}>
             <div className=' w-[80%] mx-auto'>
-                <div className=' flex md:items-start lg:items-center gap-5 flex-wrap md:flex-nowrap'>
+                <div className=' flex md:items-start lg:items-center gap-5 flex-wrap lg:flex-nowrap'>
 
                     {/* left side  */}
-                    <div className='w-full md:w-1/2 justify-center md:flex-col md:items-start'>
+                    <div className='w-full lg:w-1/2 justify-center md:flex-col md:items-start'>
                         <h1 className=' font-[poppins] text-4xl font-bold text-center md:text-start text-white'>Grow your career with EduDeme top-notch  online <br /> courses</h1>
                         <p className=' font-[poppins] font-bold text-base text-white pt-4 text-center md:text-start'>With the EduDeme App, you can learn no matter where you are. Download now to learn anything, anytime for free.</p>
-                        <div className='flex items-center justify-center md:justify-start gap-5 pt-10'>
-                            <div >
-                                <h1 className=' font-[poppins] md:text-4xl text-2xl font-bold text-white md:text-nowrap text-nowrap'>568,000 +</h1>
-                                <p className=' font-[poppins] text-neutral-400 font-bold text-sm '>Successfully Trained</p>
+                        <div className='flex items-center justify-center md:flex-nowrap flex-wrap md:justify-start gap-8 pt-10'>
+                            <div className=' bg-white rounded-2xl p-4' id=' shadow'>
+                                <h1 className=' font-[poppins] md:text-3xl text-2xl font-bold md:text-nowrap text-nowrap'>56800 +</h1>
+                                <p className=' font-[poppins] font-bold text-sm   pt-1'>Successfully Trained</p>
                             </div>
-                            <div>
-                                <h1 className=' font-[poppins] text-2xl md:text-nowrap md:text-4xl font-bold text-white'>129,000 +</h1>
-                                <p className=' font-[poppins] text-neutral-400 font-bold text-sm'>Certification Students</p>
+                            <div className=' bg-white rounded-2xl p-4' id=' shadow'>
+                                <h1 className=' font-[poppins] text-2xl md:text-nowrap md:text-3xl font-bold'>800 +</h1>
+                                <p className=' font-[poppins] font-bold text-sm  pt-1'>Certified Students</p>
                             </div>
                         </div>
                         <div className=' flex items-center pt-8'>
-                            <img src="" alt="" />
-                            <div className=' bg-gray-800 w-[100px] h-[100px] rounded-lg flex justify-center items-center text-white mr-7'>
-                                Qr Code
-                            </div>
-                            <p className=' font-[poppins] text-sm text-wrap md:w-1/2 text-white'>Scan to download our App on the Play store and App <br /> store</p>
+                            <p className=' font-[poppins] text-sm text-wrap md:w-[65%] text-white'>Discover a world of knowledge and opportunities with our online education platform pursue a new career</p>
                         </div>
-                        
-                        {/* <div className='flex flex-wrap md:flex-nowrap justify-center md:items-center text-center md:justify-start gap-4 pt-10'>
-                            <div className=' flex items-center gap-2 gb px-5 py-2 rounded-full bg-[#000000] w-fit md:text-nowrap'>
-                                <img src="" alt="" />
-                                <div className=' flex flex-col items-start'>
-                                    <p className=' text-xs font-bold font-[poppins] text-white'>GET IN ON</p>
-                                    <p className=' md:text-xl text-base font-[poppins] font-bold text-white'>Google Play</p>
-                                </div>
-                            </div>
-                            <div className=' flex items-center gap-2 gb px-5 py-2 rounded-full bg-[#000000] w-fit md:text-nowrap'>
-                                <img src="" alt="" />
-                                <div className=' flex flex-col items-start'>
-                                    <p className=' text-xs font-bold font-[poppins] text-white'>GET IN ON</p>
-                                    <p className=' md:text-xl text-base font-[poppins] font-bold text-white'>Google Play</p>
-                                </div>
-                            </div>
-                        </div> */}
 
-                        <div className=' flex flex-wrap md:flex-nowrap justify-center md:items-center text-center md:justify-start gap-4 pt-10'>
-                            <img src={playstore} alt="" />
-                            <img src={appstore} alt="" />
+                        <div className='  flex items-center gap-5 pt-7 flex-wrap md:flex-nowrap justify-center md:justify-start'>
+                            <button className=' bg-black text-white px-8 py-2 rounded-full font-[poppins] '>EXPLORE ALL</button>
+                            <button className=' bg-black text-white px-8 py-2 rounded-full font-[poppins] '>EXPLORE ALL</button>
                         </div>
                     </div>
 
                     {/* right side  */}
-                    <div className=' w-full md:w-1/2 '>
+                    <div className=' w-full lg:w-1/2 '>
                         <img src={lapPhone} alt="" />
                     </div>
 
