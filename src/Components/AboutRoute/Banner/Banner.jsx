@@ -7,7 +7,7 @@ const Banner = () => {
 //   <!-- Your content here -->
 // </div>
     <>
-        <div className='max-w-[100%] mx-auto bg-[url("")] py-36 border-none bg-cover' style={{ backgroundImage: "url('https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040321.png?updatedAt=1733137253715')" }}>
+        <div className='max-w-[100%] mx-auto py-36 border- w-full bg-cover bg-[url("https://ik.imagekit.io/jjyo3gsee/RevampImg/bannerf3x.png?updatedAt=1733749914094")]' >
             <div className=' w-[80%] mx-auto'>
                 <div className=' flex md:items-start lg:items-center gap-5 flex-wrap lg:flex-nowrap'>
 
