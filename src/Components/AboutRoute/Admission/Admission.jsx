@@ -8,10 +8,21 @@ const Admission = () => {
     <>
         <div className=" max-w-[100%] mx-auto">
             <div className=" w-[80%] mx-auto">
-                <div className=' flex flex-col items-center justify-center py-20'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 items-end'>
+                    <div className=' flex flex-col items-start justify-center pt-20 mb-10 gap-3'>
+                        <div className=' flex gap-2'>
+                            <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Admission</h1>
+                        </div>
+                        <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Admission<span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/>Process</span></h1>
+                    </div>
+                    <div className='flex justify-end items-center'>
+                        <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
+                    </div>
+                </div>
+                {/* <div className=' flex flex-col items-center justify-center py-20'>
                     <h1 className=' text-[#FF8C05] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Admission</h1>
                     <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Admission Process</h1>
-                </div>
+                </div> */}
                 <div className="  relative">
                     <div className=" xl:absolute xl:-top-1">
                         <h1 className=' text-[#FF8C05] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Admission</h1>

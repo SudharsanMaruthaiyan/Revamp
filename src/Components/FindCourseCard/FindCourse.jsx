@@ -18,7 +18,6 @@ const FindCourse = () => {
                     <div className='flex justify-end items-center'>
                         <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
                     </div>
-
                 </div>
                 <div className=' grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-x-5 gap-y-12'>
                     {

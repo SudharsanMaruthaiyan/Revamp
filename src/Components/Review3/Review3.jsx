@@ -41,7 +41,7 @@ const Review3 = () => {
               <div>
                 <div className="flex gap-5">
                   <div className="">
-                    <h5 class="flex gap-3">
+                    {/* <h5 class="flex gap-3">
                       <p className="font-[Poppins] text-[18px] md:text-[22px] lg:text-[24px] font-semibold text-[#FF9F00] ">
                         Testimonial
                       </p>
@@ -58,7 +58,10 @@ const Review3 = () => {
                           <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z"></path>
                         </g>
                       </svg>
-                    </h5>
+                    </h5> */}
+                    <div className=' flex gap-2'>
+                    <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Testimonial</h1>
+                </div>
                   </div>
                 </div>
                 <div className="flex ">
