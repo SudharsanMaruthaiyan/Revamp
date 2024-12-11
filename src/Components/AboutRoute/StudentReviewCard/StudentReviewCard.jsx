@@ -4,7 +4,7 @@ import { qutoes } from '../../../assets/Api/ImageApi'
 
 const StudentReviewCard = ({head,domain,ctn,img,imgctn}) => {
   return (
-    <div className='p-10 rounded-2xl mx-3 flex flex-col justify-center items-center'  id='shadow'>
+    <div className='p-10 py-20 rounded-2xl mx-3 flex flex-col justify-center items-center'  id='shadow'>
       <div className=' flex items-center gap-2'>
          {/* <Quote className=' w-10 fill-[#7932fd] stroke-[#7932fd]' /> */}
          <img src={qutoes} alt="" className=' w-8'/>

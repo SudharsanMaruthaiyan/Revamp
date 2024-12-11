@@ -7,18 +7,17 @@ const Blog2 = () => {
     <>
       <div className="max-w-[100%]">
         <div className="lg:w-[80%] w-[90%] mx-auto grid grid-cols-1 pb-20">
-          <div className="flex justify-center flex-col items-center gap-3 py-5 w-[60%] mx-auto">
-            <div>
-              <p className="font-[Poppins] text-[#FF9F00]">Articles</p>
+          <div className='grid grid-cols-1 lg:grid-cols-2 items-end'>
+            <div className=' flex flex-col items-start justify-center pt-20 mb-10 gap-3'>
+                <div className=' flex gap-2'>
+                    <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Articles</h1>
+                </div>
+                <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>Our Blog  <span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/> Updates</span></h1>
             </div>
-            <div>
-              <h1 className="lg:text-[48px] text-[24px] font-[Poppins] font-bold">Our Blog Updates</h1>
-            </div>
-            <div>
-              <p className="text-center text-[16px] font-[Poppins]">Seuris finibus eleifend ante quis scelerisque. Nunc rutrum eget dui quis pulvinar. Curabitur et tincidunt lectus, gravida elementum ligula</p>
+            <div className='flex justify-end items-center'>
+                <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
             </div>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 gap-y-24">
             {Blog1Data.map((e) => {
               return (

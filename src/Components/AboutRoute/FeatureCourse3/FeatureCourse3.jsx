@@ -6,9 +6,20 @@ const FeatureCourse3 = () => {
     <>
         <div className=" max-w-[100%] mx-auto mb-20">
             <div className=" w-[80%] mx-auto">
-                <div className=' flex flex-col items-center justify-center pb-20 pt-[260px]'>
+                {/* <div className=' flex flex-col items-center justify-center pb-20 pt-[260px]'>
                     <h1 className=' text-[#FF8C05] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Feature Course 3</h1>
                     <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>One Platform Many Course</h1>
+                </div> */}
+                <div className='grid grid-cols-1 lg:grid-cols-2 items-end pb-20 pt-[260px]'>
+                    <div className=' flex flex-col items-start justify-center pt-10 gap-3'>
+                        <div className=' flex gap-2'>
+                            <h1 className=' text-[#FF9F00] font-[poppins] font-bold text-sm tracking-[.25em] uppercase py-2'>Feature Course 3</h1>
+                        </div>
+                        <h1 className=' md:text-[35px] text-2xl font-[poppins] font-bold'>One Platform Many <span className=' underline text-[#FF9F00] leading-none'><br className=' md:block lg:hidden'/>Course</span></h1>
+                    </div>
+                    <div className='flex justify-end items-center'>
+                        <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg'>Explore All Courses</p>
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
