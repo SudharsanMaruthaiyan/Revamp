@@ -13,9 +13,6 @@ const FindCourse = () => {
             <Navbar></Navbar>
             <Header></Header>
             <div className='w-[90%] lg:w-[80%] mx-auto py-[40px]'>
-<<<<<<< HEAD
-                
-=======
                 <div className='grid grid-cols-1 lg:grid-cols-2 items-end'>
                     <div className=' flex flex-col items-start justify-center pt-20 mb-10 gap-3'>
                         <div className=' flex gap-2'>
@@ -27,7 +24,6 @@ const FindCourse = () => {
                         <p className=' font-[poppins] font-semibold text-lg bg-[#FF9F00] text-white transition-colors py-2 px-5 rounded-lg mb-10'>Explore All Courses</p>
                     </div>
                 </div>
->>>>>>> 6385380ff81b6111b9428b0f9d6b93193d511110
                 <div className=' grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-x-5 gap-y-12'>
                     {
                         FindCourseCardApi.map((e,index)=>(
