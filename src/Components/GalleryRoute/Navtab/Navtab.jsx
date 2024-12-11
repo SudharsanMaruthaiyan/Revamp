@@ -49,10 +49,10 @@ function Navtab() {
   return (
     <>
       <div className="4xl:container mx-auto">
-        <div className="md:w-[80%] 4xl:w-[100%] w-[80%] max-w-[100%] mx-auto mb-28 py-2 overflow-hidden">
-          <Tabs defaultValue={1}>
-            <TabsList className="pb-3">
-              <div className="slider-container py-5 px-3 rounded-lg " id="certi">
+        <div className="w-[80%] mx-auto ">
+          <Tabs defaultValue={1} className="">
+            <TabsList className="">
+              <div className="slider-container ">
                 <Slider {...settings}>
                   <div>
                     <Tab

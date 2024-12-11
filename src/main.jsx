@@ -4,14 +4,14 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./Body";
 import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Body";
-import Courseroute from "./Components/Courseroute/Courseroute";
 import Footer from "./Components/Footer/Footer";
 import GalleryRoute from "./Components/GalleryRoute/GalleryRoute";
 import AboutRoute from "./Components/AboutRoute/AboutRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
 import Blogroute from "./Components/Blogroute/Blogroute";
-import FindCourseRoute from "./Components/Courseroute/FindCourse/FindCourseRoute";
+import FindCourse from "./Components/FindCourseCard/FindCourse";
+import Courseroute from "./Components/Courseroute/Courseroute";
 
 const Applayout  = ()=>{
   return(
@@ -29,7 +29,7 @@ const appRouter = createBrowserRouter([
   },
   {
     path:"/course",
-    element:<FindCourseRoute></FindCourseRoute>
+    element:<FindCourse></FindCourse>
   },
   {
     path:"coursedetails",

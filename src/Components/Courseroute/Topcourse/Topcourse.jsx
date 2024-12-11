@@ -1,4 +1,4 @@
-import Coursecarddata from "../../../assets/Api/Coursecarddata";
+import Coursecarddata from "../../../API/Coursecarddata";
 import Topcoursecard from "../Topcoursecard/Topcoursecard";
 
 const Topcourse = () => {

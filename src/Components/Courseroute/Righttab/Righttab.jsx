@@ -21,8 +21,8 @@ const Righttab = () => {
   return (
     <>
       <div className="w-[100%] grid grid-cols-1 gap-6">
-        <div className="flex flex-col gap-6 px-5 py-10 rounded-lg border bg-white" id="certi">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-6 px-5 pb-10 rounded-lg border bg-white" id="certi">
+          <div className="flex flex-col gap-5">'
           <div className="h-fit">
             <img src="https://ik.imagekit.io/jjyo3gsee/HI-Study/image/Frame%20795.png?updatedAt=1724494883095" alt=""  className="w-[100%] h-fit"/>
           </div>

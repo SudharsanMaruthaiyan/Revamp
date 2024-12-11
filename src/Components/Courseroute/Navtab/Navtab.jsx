@@ -2,12 +2,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Curriculam from "../Curriculam/Curriculam";
+import Review from "../Navreview/Navreview";
+import Announcement from "../Announcement/Announcement";
 import Content from "../Navcourse/Navcourse";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
 import ProjectSection from "../ProjectSection/ProjectSection";
-import TapReview3 from "../../TapReview3/TapReview3";
-
+import Review3 from "../Review3/Review3";
 
 function Navtab() {
   var settings = {
@@ -166,7 +167,7 @@ function Navtab() {
               <Curriculam></Curriculam>
             </TabPanel>
             <TabPanel value={3}>
-              <TapReview3/>
+                      <Review3></Review3>
             </TabPanel>
             <TabPanel value={4}>
               <ProjectSection></ProjectSection>

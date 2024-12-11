@@ -1,12 +1,12 @@
 import React from 'react'
-import { projecttag } from "../../../assets/Api/ImageApi";
+import { projecttag } from '../../../assets/Api/ImageApi'
 
 const ProjectSectionCard = (props) => {
   return (
     <div>
-        <div className='w-[100%] grid grid-cols-1 gap-3 px-2 py-2 rounded-xl'  id='certi'>
+        <div className='w-[100%] grid grid-cols-1 gap-3 px-3 py-3 rounded-xl'  id='certi'>
             <div className='flex justify-center'>
-                <img src={props.img} alt="projec image" className='w-[100%]'/>
+                <img src={props.img} alt="projec image" className='w-[100%]' />
             </div>
             <div className='flex flex-col gap-2 justify-center font-[Poppins]'>
                 <div className='flex items-start'>
