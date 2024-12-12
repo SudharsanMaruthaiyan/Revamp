@@ -10,7 +10,7 @@ import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
 import Blogroute from "./Components/Blogroute/Blogroute";
 import Courseroute from "./Components/Courseroute/Courseroute";
-import FindcourseRoute from "./Components/FindCourseCard/FindcourseRoute";
+import FindcourseRoute from "./Components/Courseroute/FindCourseCard/FindcourseRoute";
 
 const Applayout  = ()=>{
   return(

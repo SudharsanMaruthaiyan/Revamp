@@ -1,16 +1,14 @@
 import React from 'react'
-import { FindCourseCardApi } from '../../assets/Api/FindCourseCardApi'
+import { FindCourseCardApi } from '../../../assets/Api/FindCourseCardApi'
 import { Link } from 'react-router-dom'
 import FindCourseCard from './FindCourseCard'
-import Header from './Header/Header'
-import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
+
 
 const FindCourse = () => {
   return (
     <>
         <div className=' max-w-[100%] mx-auto'>
-            <div className='w-[90%] lg:w-[80%] mx-auto py-[40px]'>
+            <div className='w-[100%] lg:w-[100%] mx-auto py-[40px]'>
                
                 <div className=' grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-x-5 gap-y-12'>
                     {
