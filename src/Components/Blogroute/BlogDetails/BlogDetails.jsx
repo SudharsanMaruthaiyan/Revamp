@@ -41,7 +41,7 @@ const BlogDetails = () => {
                     </div>
                   </div>
                   <div>
-                    <p className=" text-[#39557e] font-[poppins]">
+                    <p className=" text-[#39557e] font-[poppins] leading-6">
                       Horem ipsum dolor sitter metting Great consectetur
                       adipiscing idealorem ipsum dolor sitter mettingtablished
                       of a page when lookinThe point of using Lorem Ipsu ss
@@ -49,7 +49,7 @@ const BlogDetails = () => {
                       sit ame consec tetur. Esse mo lestie consequat, vel illum
                       dolore eu feugiat nulla facilisis at vero eros et ac
                       cumsan et iusto odio dignissim qui blandit praesent
-                      consectetur adipiscing idealorem.
+                      consectetur adipiscing idealorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus dicta nostrum dolore alias modi beatae facere, consequuntur sequi voluptates minima necessitatibus rem debitis accusantium quisquam unde eum aliquid qui?
                     </p>
                   </div>
                 </div>

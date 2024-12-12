@@ -185,3 +185,7 @@ export const qutoes ="https://ik.imagekit.io/jjyo3gsee/qutes.png?updatedAt=17331
 //instagram post 
 
 export const instalogo = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/skill-icons_instagram.png?updatedAt=1733234295901"; 
+
+//blog details header
+export const blogdetailsheader = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040329.png?updatedAt=1733990131150"
+export const blogdetailsheadermob = "https://ik.imagekit.io/HoneyJoe/Revamp%20web/Frame%2040330.png?updatedAt=1733990131169"

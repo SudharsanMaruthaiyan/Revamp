@@ -41,7 +41,7 @@ function ProjectSection() {
     ],
   };
   return (
-    <div className="w-[100%]">
+    <div className="w-[90%] lg:w-[80%] mx-auto">
       <div className="flex flex-col items-center gap-5 py-10">
         <div>
           <p className="bg-[#FF9F00] text-white font-[poppins] px-3 py-2 rounded-full">

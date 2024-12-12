@@ -2,11 +2,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
-import LinkedInSection from "../LinkedInSection/LinkedInSection";
-import ProjectSection from "../ProjectSection/ProjectSection";
-import InstagramSection from "../InstagramSection/InstagramSection";
 
-
+import FindCourse from "../FindCourse";
 
 function Navtab() {
   var settings = {
@@ -52,7 +49,7 @@ function Navtab() {
         <div className="w-[100%] mx-auto ">
           <Tabs defaultValue={1} className="">
             <TabsList className="">
-              <div className="slider-container ">
+              <div className="slider-container">
                 <Slider {...settings}>
                   <div>
                     <Tab
@@ -71,7 +68,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">LINKED IN </button>
+                      <button className="">MERN </button>
                     </Tab>
                   </div>
                   <div>
@@ -91,10 +88,9 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">STUDENTS PROJECT</button>
+                      <button className="">APP</button>
                     </Tab>
                   </div>
-                  
 
                   <div>
                     <Tab
@@ -113,7 +109,7 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">INSTAGRAM</button>
+                      <button className="">AI/ML</button>
                     </Tab>
                   </div>
                   <div>
@@ -133,23 +129,23 @@ function Navtab() {
                         }),
                       }}
                     >
-                      <button className="">GALLERY</button>
+                      <button className="">JAVA/DSA</button>
                     </Tab>
                   </div>
                 </Slider>
               </div>
             </TabsList>
             <TabPanel value={1}>
-              <LinkedInSection></LinkedInSection>
+              <FindCourse></FindCourse>
             </TabPanel>
             <TabPanel value={2}>
-            <ProjectSection></ProjectSection>
+              <FindCourse></FindCourse>
             </TabPanel>
             <TabPanel value={3}>
-            <InstagramSection></InstagramSection>
+              <FindCourse></FindCourse>
             </TabPanel>
             <TabPanel value={4}>
-            <LinkedInSection></LinkedInSection>
+              <FindCourse></FindCourse>
             </TabPanel>
           </Tabs>
         </div>

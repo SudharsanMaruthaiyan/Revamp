@@ -1,4 +1,5 @@
 
+import Blog2 from "../Blog2/Blog2"
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 import Blogtab from "./Blogtab/Blogtab"
@@ -9,6 +10,7 @@ const Blogroute = () => {
     <>  
       <Navbar></Navbar>
       <Header></Header>
+      <Blog2></Blog2>
       <Blogtab></Blogtab>
       <Footer></Footer>
     </>

@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client"
 import "./index.css"
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import App from "./Body";
 import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Body";
 import Footer from "./Components/Footer/Footer";
@@ -10,8 +9,8 @@ import AboutRoute from "./Components/AboutRoute/AboutRoute";
 import BlogDetails from "./Components/Blogroute/BlogDetails/BlogDetails";
 import ContactRoute from "./Components/ContactRoute/ContactRoute";
 import Blogroute from "./Components/Blogroute/Blogroute";
-import FindCourse from "./Components/FindCourseCard/FindCourse";
 import Courseroute from "./Components/Courseroute/Courseroute";
+import FindcourseRoute from "./Components/FindCourseCard/FindcourseRoute";
 
 const Applayout  = ()=>{
   return(
@@ -29,7 +28,7 @@ const appRouter = createBrowserRouter([
   },
   {
     path:"/course",
-    element:<FindCourse></FindCourse>
+    element:<FindcourseRoute></FindcourseRoute>
   },
   {
     path:"coursedetails",
