@@ -10,7 +10,7 @@ const FindCourse = () => {
   return (
     <>
         <div className=' max-w-[100%] mx-auto'>
-            <div className='w-[80%] lg:w-[80%] mx-auto py-[40px]'>
+            <div className='w-[100%] lg:w-[100%] mx-auto py-[40px]'>
                
                 <div className=' grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-x-5 gap-y-12'>
                     {
