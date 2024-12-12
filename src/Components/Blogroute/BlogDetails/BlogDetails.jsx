@@ -15,9 +15,13 @@ const BlogDetails = () => {
         <div className=" w-[90%] mx-auto my-14">
           <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-16">
             <div className=" py-5 lg:py-10 col-span-2 md:col-span-2">
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div>
-                  <img src={blogimage2} alt="" className="w-[100%] lg:w-[80%]"/>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div className="w-full h-full flex">
+                  <img
+                    src={blogimage2}
+                    alt=""
+                    className="w-[100%] lg:w-[100%]"
+                  />
                 </div>
                 <div className="">
                   <div className=" flex gap-5 items-center py-5 flex-wrap">
@@ -46,19 +50,17 @@ const BlogDetails = () => {
                       adipiscing idealorem ipsum dolor sitter mettingtablished
                       of a page when lookinThe point of using Lorem Ipsu ss
                       normal distribution.est, qui dolor emr ipsum quia dolor
-                      sit ame consec tetur. Esse mo lestie consequat, vel illum
-                      dolore eu feugiat nulla facilisis at vero eros et ac
-                      cumsan et iusto odio dignissim qui blandit praesent
-                      consectetur adipiscing idealorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus dicta nostrum dolore alias modi beatae facere, consequuntur sequi voluptates minima necessitatibus rem debitis accusantium quisquam unde eum aliquid qui?
+                      sit ame consec tetur. Esse mo les
                     </p>
+                    <div className=" bg-[#F1F8FF] border-l-[6px] border-[#FF9F00] my-5">
+                      <h1 className=" md:py-12 md:px-12 px-8 py-8 lg:pr-5 text-lg md:text-xl text-[#FF9F00] font-bold font-[poppins]">
+                        “ urabitur varius eros rutrum consequat Mauris
+                        sollicitudin enim condimentum luctus enim justo non
+                        molestie nisl ”
+                      </h1>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className=" bg-[#F1F8FF] border-l-[6px] border-[#FF9F00] my-10">
-                <h1 className=" md:py-12 md:px-12 px-8 py-8 lg:pr-40 text-lg md:text-xl text-[#FF9F00] font-bold font-[poppins]">
-                  “ urabitur varius eros rutrum consequat Mauris sollicitudin
-                  enim condimentum luctus enim justo non molestie nisl ”
-                </h1>
               </div>
               <DuringThisProgram />
               <Blogform></Blogform>
