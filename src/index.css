@@ -14,7 +14,9 @@
   font-family: poppins;
   src: url(./assets/Font/Poppins.ttf);
 }
-
+*{
+  scroll-behavior: smooth;
+}
 /* @font-face {
   font-family: Regular;
   src: url(./assets/Font/ProductRegular.ttf);

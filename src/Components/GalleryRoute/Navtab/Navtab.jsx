@@ -5,6 +5,7 @@ import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 import LinkedInSection from "../LinkedInSection/LinkedInSection";
 import ProjectSection from "../ProjectSection/ProjectSection";
 import InstagramSection from "../InstagramSection/InstagramSection";
+import GallerySection from "../GallerySection/GallerySection";
 
 
 
@@ -49,110 +50,29 @@ function Navtab() {
   return (
     <>
       <div className="4xl:container mx-auto py-10">
-        <div className="w-[80%] mx-auto ">
-          <Tabs defaultValue={1} className="">
-            <TabsList className="">
-              <div className="slider-container shadow-[0px_0px_5px_0px] py-5 px-5 rounded-lg">
-                <Slider {...settings} className="">
-                  <div>
-                    <Tab
-                      value={1}
-                      slotProps={{
-                        root: ({ selected, disabled }) => ({
-                          className: `font-[Poppins]  ${
-                            selected
-                              ? " bg-[#FF9F00] text-white rounded-lg "
-                              : "text-black"
-                          } ${
-                            disabled
-                              ? "cursor-not-allowed opacity-50"
-                              : "cursor-pointer"
-                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
-                        }),
-                      }}
-                    >
-                      <button className="">LINKED IN </button>
-                    </Tab>
-                  </div>
-                  <div>
-                    <Tab
-                      value={2}
-                      slotProps={{
-                        root: ({ selected, disabled }) => ({
-                          className: `font-[Poppins]  ${
-                            selected
-                              ? " bg-[#FF9F00] text-white rounded-lg  "
-                              : "text-black"
-                          } ${
-                            disabled
-                              ? "cursor-not-allowed opacity-50"
-                              : "cursor-pointer"
-                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
-                        }),
-                      }}
-                    >
-                      <button className="">STUDENTS PROJECT</button>
-                    </Tab>
-                  </div>
-                  
-
-                  <div>
-                    <Tab
-                      value={3}
-                      slotProps={{
-                        root: ({ selected, disabled }) => ({
-                          className: `font-[Poppins]  ${
-                            selected
-                              ? " bg-[#FF9F00] text-white rounded-lg "
-                              : "text-black"
-                          } ${
-                            disabled
-                              ? "cursor-not-allowed opacity-50"
-                              : "cursor-pointer"
-                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
-                        }),
-                      }}
-                    >
-                      <button className="">INSTAGRAM</button>
-                    </Tab>
-                  </div>
-                  <div>
-                    <Tab
-                      value={4}
-                      slotProps={{
-                        root: ({ selected, disabled }) => ({
-                          className: `font-[Poppins]  ${
-                            selected
-                              ? " bg-[#FF9F00] text-white rounded-lg  "
-                              : "text-black"
-                          } ${
-                            disabled
-                              ? "cursor-not-allowed opacity-50"
-                              : "cursor-pointer"
-                          } text-[14px] lg:text-[16px]  font-medium w-full px-1 py-2   flex justify-center focus:outline-0`,
-                        }),
-                      }}
-                    >
-                      <button className="">GALLERY</button>
-                    </Tab>
-                  </div>
-                </Slider>
-              </div>
-            </TabsList>
-            <TabPanel value={1}>
-              <LinkedInSection></LinkedInSection>
-            </TabPanel>
-            <TabPanel value={2}>
-            <ProjectSection></ProjectSection>
-            </TabPanel>
-            <TabPanel value={3}>
-            <InstagramSection></InstagramSection>
-            </TabPanel>
-            <TabPanel value={4}>
+        <div className="w-[80%] mx-auto flex flex-col gap-5 justify-between">
+          <div className="px-3 py-5 shadow-[0px_0px_5px_0px] rounded-lg">
+            <div className="flex justify-start gap-20">
+              <button ><a href="#linkedin" className="px-10 py-2 rounded-lg text-[20px] focus:bg-[#FF9F00] focus:text-white font-[Poppins] font-medium">LinkedIn</a></button>
+              <button ><a href="#instagram" className="px-10 py-2 rounded-lg text-[20px] focus:bg-[#FF9F00] focus:text-white font-[Poppins] font-medium">Instagram</a></button>
+              <button ><a href="#project" className="px-10 py-2 rounded-lg text-[20px] focus:bg-[#FF9F00] focus:text-white font-[Poppins] font-medium">Project</a></button>
+              <button ><a href="#gallery" className="px-10 py-2 rounded-lg text-[20px] focus:bg-[#FF9F00] focus:text-white font-[Poppins] font-medium" >Gallery</a></button>
+            </div>
+          </div>
+          <div id="linkedin">
             <LinkedInSection></LinkedInSection>
-            </TabPanel>
-          </Tabs>
-        </div>
+          </div>
+          <div id="instagram">
+            <InstagramSection></InstagramSection>
+          </div>
+          <div id="project">
+            <ProjectSection></ProjectSection>
+          </div>
+          <div id="gallery">
+            <GallerySection></GallerySection>
+          </div>
+          
+        </div> 
       </div>
     </>
   );
