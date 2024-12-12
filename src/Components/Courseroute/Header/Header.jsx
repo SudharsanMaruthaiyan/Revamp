@@ -4,7 +4,7 @@ import { author_image, coursedhead745, coursedheadmob, courseheader } from "../.
 const Header = () => {
   return (
     <>
-      <div className="max-w-[100%] ">
+      <div className="max-w-[100%] pt-20">
         <div className="w-[100%] mx-auto grid grid-cols-1">
         <img src={coursedhead745} alt="" className="hidden md:block xl:hidden" />
           <img src={courseheader} alt="" className="hidden xl:block" />

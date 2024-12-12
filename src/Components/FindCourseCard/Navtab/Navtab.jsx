@@ -11,10 +11,9 @@ function Navtab() {
     infinite: false,
     speed: 500,
     arrows: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
-
     responsive: [
       {
         breakpoint: 1025,
@@ -46,10 +45,10 @@ function Navtab() {
   return (
     <>
       <div className="4xl:container mx-auto py-10">
-        <div className="w-[100%] mx-auto ">
+        <div className="w-[80%] mx-auto ">
           <Tabs defaultValue={1} className="">
             <TabsList className="">
-              <div className="slider-container">
+              <div className="slider-container shadow-[0px_0px_5px_0px] py-5 px-5 rounded-lg">
                 <Slider {...settings}>
                   <div>
                     <Tab

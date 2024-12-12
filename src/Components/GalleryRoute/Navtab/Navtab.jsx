@@ -49,11 +49,11 @@ function Navtab() {
   return (
     <>
       <div className="4xl:container mx-auto py-10">
-        <div className="w-[100%] mx-auto ">
+        <div className="w-[80%] mx-auto ">
           <Tabs defaultValue={1} className="">
             <TabsList className="">
-              <div className="slider-container ">
-                <Slider {...settings}>
+              <div className="slider-container shadow-[0px_0px_5px_0px] py-5 px-5 rounded-lg">
+                <Slider {...settings} className="">
                   <div>
                     <Tab
                       value={1}

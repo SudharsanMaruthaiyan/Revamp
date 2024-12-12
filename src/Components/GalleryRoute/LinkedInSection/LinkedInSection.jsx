@@ -45,7 +45,7 @@ const LinkedInSection = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[90%] lg:w-[80%] mx-auto grid grid-cols-1 py-[60px]">
+        <div className="w-[90%] lg:w-[100%] mx-auto grid grid-cols-1 py-[60px]">
           <div className="flex flex-col items-center gap-5">
             <div>
               <p className="bg-[#FF9F00] text-white font-[poppins] px-3 py-2 rounded-full">How We Start Our Journey</p>
